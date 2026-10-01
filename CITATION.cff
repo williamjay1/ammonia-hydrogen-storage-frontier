@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research code and data when using it."
+type: software
+title: "Ammonia process flexibility and hydrogen-storage service frontiers"
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - family-names: Wang
+    given-names: Siyu
+    orcid: "https://orcid.org/0009-0006-0106-1018"
+  - family-names: Zhang
+    given-names: Junjie
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+repository-code: "https://github.com/williamjay1/ammonia-hydrogen-storage-frontier"
+url: "https://github.com/williamjay1/ammonia-hydrogen-storage-frontier"
+license: MIT
+keywords:
+  - hydrogen storage
+  - ammonia
+  - process flexibility
+  - product buffering
+  - deliverability
+  - reproducibility

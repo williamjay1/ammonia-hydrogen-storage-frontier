@@ -1,0 +1,78 @@
+{
+  "status": "validated_complete",
+  "run_label": "primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023",
+  "flexible_case": "flex_ml0p4_b24",
+  "rows_expected": 270,
+  "rows_observed": 270,
+  "rows_in_combined_run": 405,
+  "locations": 15,
+  "countries": [
+    "France",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Spain"
+  ],
+  "evaluation_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "optimal_rows": 270,
+  "not_feasible_within_16_reference_caverns_rows": 0,
+  "maximum_absolute_structural_residuals": {
+    "max_h2_balance_residual_kgph": 1.4055672181711994e-09,
+    "max_h2_storage_balance_residual_kg": 3.9440806176571636e-10,
+    "max_nh3_balance_residual_tph": 4.719780122286463e-10,
+    "max_annual_nh3_service_residual_t_per_normalized_tph": 4.747562343254683e-10,
+    "max_hb_ramp_violation_tph_per_hour": 2.7110313993716773e-11,
+    "max_site_power_violation_mw": 3.552713678800501e-15,
+    "max_hourly_matching_violation_mw": 2.889034789177458e-09
+  },
+  "free_h2_reduction_pct_location_year_median": 17.851830998610964,
+  "free_h2_reduction_pct_location_year_iqr": [
+    12.9052039998344,
+    27.557111691687805
+  ],
+  "free_h2_reduction_pct_location_year_range": [
+    4.85782433534383,
+    69.94197195701587
+  ],
+  "location_year_pairs_with_lower_reference_cavern_count": 89,
+  "location_year_pairs_with_equal_reference_cavern_count": 46,
+  "location_year_pairs_with_higher_reference_cavern_count": 0,
+  "feasible_pairs_crossing_to_fewer_modules_under_flexibility": 89,
+  "feasible_pairs_crossing_from_multiple_modules_to_one": 42,
+  "rigid_cases_where_one_module_volume_covers_free_inventory_but_multiple_modules_are_required": 60,
+  "flexible_cases_where_one_module_volume_covers_free_inventory_but_multiple_modules_are_required": 26,
+  "feasible_paired_cavern_solutions": 135,
+  "median_reference_caverns_avoided_among_feasible_pairs": 1.0,
+  "sites_with_complete_all_replay_module_adequacy": 15,
+  "sites_with_lower_all_replay_module_count": 12,
+  "sites_with_equal_all_replay_module_count": 3,
+  "median_all_replay_module_count_reduction": 1.0,
+  "median_maximum_annual_free_inventory_reduction_pct": 10.18558837678999,
+  "all_replay_design_interpretation": "Maximum annual requirement covers all nine independently cyclic perfect-foresight replays; not a contiguous multiyear trajectory or a common initial inventory.",
+  "median_volume_only_module_lower_bound_rigid": 1.0,
+  "median_volume_only_module_lower_bound_flexible": 1.0,
+  "pairs_where_rigid_flow_or_schedule_requires_extra_module_over_volume_bound": 93,
+  "pairs_where_flexible_flow_or_schedule_requires_extra_module_over_volume_bound": 42,
+  "median_extra_modules_over_volume_only_bound_rigid": 1.0,
+  "median_extra_modules_over_volume_only_bound_flexible": 0.0,
+  "cluster_bootstrap_95pct_interval_for_median_site_median_free_inventory_reduction_pct": [
+    15.285770260020803,
+    24.74385582941924
+  ],
+  "cluster_bootstrap_95pct_interval_for_pooled_location_year_median_free_inventory_reduction_pct": [
+    15.672924307678931,
+    23.205224178233138
+  ],
+  "bootstrap_interpretation": "Descriptive cluster-resampling interval over the selected 15 EHO city clusters; not an EU-27 population confidence interval.",
+  "boundary": "Perfect-foresight independent annual historical replay; cyclic inventories; no plant or cavern availability data."
+}

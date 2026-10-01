@@ -1,0 +1,45 @@
+{
+  "rows": 405,
+  "all_necessary_bounds_satisfied": true,
+  "combined_stock_bound_pairs": 270,
+  "all_combined_stock_relief_bounds_satisfied": true,
+  "grid_reconstruction_sufficient_condition_satisfied": true,
+  "maximum_free_inventory_relief_service_hours": 24.000000000248424,
+  "interval_lengths_hours": [
+    1,
+    6,
+    12,
+    24,
+    48,
+    72,
+    168,
+    336,
+    720,
+    1440,
+    2160,
+    4380
+  ],
+  "by_process_case": {
+    "flex_ml0p4_b24": {
+      "rows": 135,
+      "certified_rate_bound_above_volume_bound": 22,
+      "combined_bound_equals_optimized_count": 112
+    },
+    "flex_ml0p6_b24": {
+      "rows": 135,
+      "certified_rate_bound_above_volume_bound": 52,
+      "combined_bound_equals_optimized_count": 101
+    },
+    "rigid": {
+      "rows": 135,
+      "certified_rate_bound_above_volume_bound": 62,
+      "combined_bound_equals_optimized_count": 71
+    }
+  },
+  "source_sha256": "6023eede5047ab4d162dbd53d74fbc4caec3279f7f59bff713cde32a233c2f34",
+  "input_sha256": {
+    "D:\\MLWork\\project12_h2flex_eu\\results\\eho_site_module_frontier\\primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023\\site_weather_frontier.csv": "8b6760ffca59e804cf765d7f3d8a677c77d0dcd8e7f3b6d17fbde034ce8d3f6d",
+    "D:\\MLWork\\project12_h2flex_eu\\results\\eho_site_module_frontier\\primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023\\run_manifest.json": "0c111f766ecb41c531a25276cc967e4bf68520fbdfb644a91f9341ba450332f6"
+  },
+  "interpretation": "Necessary bounds over stated interval lengths; eligibility supply is an optimistic cap. No sufficiency, geology or facility reliability claim."
+}

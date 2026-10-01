@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "rows": 27,
+  "same_volume_across_process_cases": true,
+  "input_csv_sha256": "6cb07c19498d94d2cbf9d57be7134886d9e11640c34cfc262929e20b08c7e962",
+  "script_sha256": "7d23758da264bfbde913a07f0f9552d6978ea4147c462f7540850f5fbd5f7b7a",
+  "interpretation": "Minimum rate at fixed generic working-gas volume; no engineering availability or cost for extra wells/compressors is inferred.",
+  "anchor_input_values_match_final_primary_grid": true,
+  "complete_primary_csv_sha256": "8b6760ffca59e804cf765d7f3d8a677c77d0dcd8e7f3b6d17fbde034ce8d3f6d",
+  "original_anchor_audit_sha256": "f377d034f3d0746f68108ade9dbae743058089ce5b30022768166ecb4dcbbfda"
+}

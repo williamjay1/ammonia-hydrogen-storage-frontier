@@ -1,0 +1,33 @@
+{
+  "status": "validated_complete",
+  "rows": 27,
+  "paired_comparisons_per_flexible_case": 9,
+  "maximum_original_matrix_and_bound_residual": 8.416918717557564e-09,
+  "by_process_case": {
+    "flex_ml0p6_b24": {
+      "median_withdrawal_capacity_reduction_pct": 25.30967764270563,
+      "range_pct": [
+        12.897343150839468,
+        48.5566382286257
+      ],
+      "iqr_pct": [
+        17.40421926871467,
+        26.58552761668618
+      ],
+      "strictly_positive_pairs": 9
+    },
+    "flex_ml0p4_b24": {
+      "median_withdrawal_capacity_reduction_pct": 55.44195181902154,
+      "range_pct": [
+        37.84234446031643,
+        61.46446493167369
+      ],
+      "iqr_pct": [
+        41.93156210055964,
+        58.677060198276386
+      ],
+      "strictly_positive_pairs": 9
+    }
+  },
+  "same_volume_verified": true
+}

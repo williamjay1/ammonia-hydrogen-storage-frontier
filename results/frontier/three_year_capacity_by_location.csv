@@ -1,0 +1,10 @@
+site_id,process_case,service_capacity_covering_three_independent_replays
+netherlands_sluiskil,flex_ml0p4_b24,37.95151297430656
+netherlands_sluiskil,flex_ml0p6_b24,29.273522835650773
+netherlands_sluiskil,rigid,23.33809628265159
+spain_huelva,flex_ml0p4_b24,35.27262265325365
+spain_huelva,flex_ml0p6_b24,23.77424168257182
+spain_huelva,rigid,19.28717395590036
+spain_sabinanigo,flex_ml0p4_b24,16.62993178863012
+spain_sabinanigo,flex_ml0p6_b24,14.38657737278912
+spain_sabinanigo,rigid,11.88392292726468

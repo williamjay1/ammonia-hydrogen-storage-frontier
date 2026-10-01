@@ -1,0 +1,134 @@
+{
+  "fields": [
+    "utc_interval_start",
+    "pv_factor",
+    "wind_speed_100m_ms"
+  ],
+  "interpretation": "Exact numerical extraction from public PVGIS and Open-Meteo ERA5 responses; no turbine or facility measurements.",
+  "attribution": {
+    "pv": "European Commission Joint Research Centre, PVGIS 5.3 ERA5; acknowledge PVGIS/JRC under public-use notice.",
+    "wind": "Open-Meteo ERA5 historical API; CC BY 4.0, https://open-meteo.com/en/terms"
+  },
+  "records": [
+    {
+      "site_id": "france_grand_quevilly",
+      "rows": 166536,
+      "file": "france_grand_quevilly.csv.gz",
+      "sha256": "04dec8dfc3c0381ec1896ee5529f2356b3d239addf217ebfcab420c0b19b31b4",
+      "source_pv_sha256": "c05609c6071bdc381b388bfbf7796263460b48a1aed2f1f42f995b3abb007cf9",
+      "source_wind_sha256": "bbc7c2d65c472434eea07d02d33891de321ec885ee0e8835f16f00c408f72ab1"
+    },
+    {
+      "site_id": "france_grandpuits_bailly_carrois",
+      "rows": 166536,
+      "file": "france_grandpuits_bailly_carrois.csv.gz",
+      "sha256": "e6c2209c4a614364adaded7aa650879b9a5b2c7576784d60db5c1876e0c4f8ca",
+      "source_pv_sha256": "4dff471348b63e6bc4eb5cda965ac095b7c10eaa53943bec277ef6e6a39c3c44",
+      "source_wind_sha256": "016a10d680c216131d769dd6a595db05c79f3fa959c96fce78e4a9c228edd9a0"
+    },
+    {
+      "site_id": "france_le_havre",
+      "rows": 166536,
+      "file": "france_le_havre.csv.gz",
+      "sha256": "bfb93dcca19fcb6c06918ab0ea88525e15fcb4a4515cb2bc356a4592651d4ac5",
+      "source_pv_sha256": "c64709d33ff344fe0d293fff1fd3533d8fe3d7f2e36fc2e2c067d674937e6696",
+      "source_wind_sha256": "3fd7e5efa4ce3b1876ff9d2f477b675f087197e72bc26596b56776745f67a9b4"
+    },
+    {
+      "site_id": "france_ottmarsheim",
+      "rows": 166536,
+      "file": "france_ottmarsheim.csv.gz",
+      "sha256": "6d60bdc307759eec124c7f351085f15b9253f22fc2ed50cc3292d330ce022eef",
+      "source_pv_sha256": "980f83a8571c9e561c0da18ad24d818d41f439a771c53edc690109e0de18e386",
+      "source_wind_sha256": "dd0d1a99e74b25f1fb6db3a5262496e859372ccf9ad891ca715044508d8b3d3d"
+    },
+    {
+      "site_id": "italy_ferrara",
+      "rows": 166536,
+      "file": "italy_ferrara.csv.gz",
+      "sha256": "e1c391f1b2e24fcaf3a567e09f7cc98e4dd3443190bdacfca12a0e797e311ef8",
+      "source_pv_sha256": "187059900df35b119ea04a908c17a25aaf717fdb943c9fd81a727741e66dab0b",
+      "source_wind_sha256": "6a41e7f93d57334738739e9706f9699ea51d3f2c0a633b940bd32782609f9778"
+    },
+    {
+      "site_id": "netherlands_geleen",
+      "rows": 166536,
+      "file": "netherlands_geleen.csv.gz",
+      "sha256": "7971d2e11a530df1ff90c31ed8bf0192372a8d8891ca7c50a840f085e1fd91e7",
+      "source_pv_sha256": "60dd78aba1ba28f34616585d79d276712cacae5f38ed884ce52691f6b1124713",
+      "source_wind_sha256": "96d44bd46c9ecb317f3de4770d415258be5b5738971bb49ebaa61b04f16521b0"
+    },
+    {
+      "site_id": "netherlands_sluiskil",
+      "rows": 166536,
+      "file": "netherlands_sluiskil.csv.gz",
+      "sha256": "0ced42ad67472a5f20d79254b72850e43320492c144ad41462b5ed53e8ff7496",
+      "source_pv_sha256": "5b4e6b505ca120e456c3bb8ea61bea79ef61371f9525fcf9156911b611680175",
+      "source_wind_sha256": "445a66f31dde47efe9f38149ce85057a6d8ef476701ba550c2e78f48160bffe2"
+    },
+    {
+      "site_id": "poland_kedzierzyn",
+      "rows": 166536,
+      "file": "poland_kedzierzyn.csv.gz",
+      "sha256": "e4d9a6a6dfac351c3d91e0ccd7b925462545a069d7bdff16d9862944294a73a1",
+      "source_pv_sha256": "7c4b78f5f745049dcb8e605874f1d6308bcf74192d9fb0e8340ec80c8c6f5bb3",
+      "source_wind_sha256": "22092e95f52761730952cb9f551f68b88301d97bbca0aea5bfcdf42ceae025e3"
+    },
+    {
+      "site_id": "poland_police",
+      "rows": 166536,
+      "file": "poland_police.csv.gz",
+      "sha256": "2c4e260fd78c00abb0dd9bf0386c1976ada1d473cb1a7b5bb1cdd4f1dcc72d7d",
+      "source_pv_sha256": "d8e7a968434fbb3534bd42a228c7a1bc40d04cf12a6733dbb26d3f1f9ff85c26",
+      "source_wind_sha256": "24c5246bc5e2eac6452a87a8d970c1a159726d46f13e43efc7e7f092277e7762"
+    },
+    {
+      "site_id": "poland_pulawy",
+      "rows": 166536,
+      "file": "poland_pulawy.csv.gz",
+      "sha256": "6b04462ae283c01e40bdb85d119691e88fad4f2d070b035c06f74fb23bd0223d",
+      "source_pv_sha256": "fe77eb6f8b625473d3a5e4ecfe2adc0ac27b3e3bb1461295a1dc8b61c5860067",
+      "source_wind_sha256": "cf78e8200c52e2b36e0604d4b6fc75340de6b30452f468807e0cb7334fda000d"
+    },
+    {
+      "site_id": "poland_tarnow",
+      "rows": 166536,
+      "file": "poland_tarnow.csv.gz",
+      "sha256": "ea58e2e74c4dfaa271554f10238db924489367573e9330af12c4e4dd466a5fdc",
+      "source_pv_sha256": "e96c7e5a81d2e08f7e8b88f2f64ab1c460cea122b20feaf7d986248fd42f7d42",
+      "source_wind_sha256": "65290f5524846187d75495702ac87f40e563dedcb7cd3556481eb0bf376a6028"
+    },
+    {
+      "site_id": "poland_wloclawek",
+      "rows": 166536,
+      "file": "poland_wloclawek.csv.gz",
+      "sha256": "d31d78ede4d89b3af8a3f23d8e1c5b83f6b7a6efc298321ec1a332b86c74920c",
+      "source_pv_sha256": "b8233aaeea0a2812e44c3d5667fb03b35754b367fb557176f9f175e147fd9fc8",
+      "source_wind_sha256": "51b420013e664d11ebb948b99c2f33ad288fb9f6d6f918f59e1ef130535bf408"
+    },
+    {
+      "site_id": "spain_huelva",
+      "rows": 166536,
+      "file": "spain_huelva.csv.gz",
+      "sha256": "fd4e8f095c7bbc650622bc376cf19c7cf71c153ce44075e2e098e25c35b35a43",
+      "source_pv_sha256": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+      "source_wind_sha256": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f"
+    },
+    {
+      "site_id": "spain_puertollano",
+      "rows": 166536,
+      "file": "spain_puertollano.csv.gz",
+      "sha256": "baf0aa8bd906ac54392e7a1d3dfc87a1da390a8a279285166573a872a889aa7f",
+      "source_pv_sha256": "d25eeb408b8c36a1d7be130545a41cf845b38ab86be62eb08c5bd7de2592a1cf",
+      "source_wind_sha256": "ff8d7a9e67e40b1eb26ae75032d07a2107b97d6c6fceec54e9a1b98185804cfe"
+    },
+    {
+      "site_id": "spain_sabinanigo",
+      "rows": 166536,
+      "file": "spain_sabinanigo.csv.gz",
+      "sha256": "31ea9035f09793f6dcd5949a1bc67836e73098bd98098b056a402ee8efb11351",
+      "source_pv_sha256": "3cea403d66d656ff854c073ed86d82f0566da236ef9abb3e08c514f49227b77c",
+      "source_wind_sha256": "63aec529f2e20a026f623a44128b091df0cb9b206038aa10ca099e84704508a8"
+    }
+  ]
+}

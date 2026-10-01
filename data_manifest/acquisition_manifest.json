@@ -1,0 +1,505 @@
+{
+  "source_page": "https://observatory.clean-hydrogen.europa.eu/hydrogen-landscape/production-trade-and-cost/hydrogen-production",
+  "source_download": "https://observatory.clean-hydrogen.europa.eu/sites/default/files/2025-09/Hydrogen%20production%20capacity%202024%20%28Update%202025%29_0_0.xlsx",
+  "source_legal_notice": "https://observatory.clean-hydrogen.europa.eu/index.php/legal-notice",
+  "source_file": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_hydrogen_capacity_20260930/Hydrogen_production_capacity_2024_update_2025.xlsx",
+  "source_sha256": "f6980327bcf4bb625fb75e1f3a0842e032b9d005495a7cb6dce05bb13c2e8f8e",
+  "source_sheet": "Plant by plant data",
+  "source_reporting_year": 2024,
+  "source_rows_five_covered_eu_countries_ammonia_use": 18,
+  "excluded_water_electrolysis_rows": 1,
+  "included_non_electrolysis_rows": 17,
+  "included_city_clusters": 15,
+  "included_countries": [
+    "France",
+    "Italy",
+    "Netherlands",
+    "Poland",
+    "Spain"
+  ],
+  "h2_capacity_t_per_year_sum": 1631715.0,
+  "h2_output_estimate_t_per_year_sum": 953712.0,
+  "aggregation": "Rows sharing country and municipality are combined; coordinates are weighted by EHO-estimated H2 output.",
+  "conversion": "NH3-equivalent annual service = 2024 EHO estimated H2 output (t/y) * 1000 / 177.55300484072126 kg H2 per t NH3 / 8760 h/y.",
+  "interpretation_boundary": "A coverage-limited set of public H2 production records with ammonia end-use, not a census of EU ammonia plants or plant operations. EHO output is estimated.",
+  "created_utc": "2026-09-30T02:43:50.936827+00:00",
+  "sample_csv": "archival-path:d/MLWork/project12_h2flex_eu/datasets/eho_ammonia_site_clusters_v1_20260930.csv",
+  "sample_csv_sha256": "d6b791e166bd625d8d3b56d6a3b5a1d7e5ad6feaab15e8a2a01a2ee48ce55579",
+  "weather_sources": {
+    "pvgis_docs": "https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en",
+    "pvgis_hourly_docs": "https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/pvgis-5-tools/hourly-radiation_en",
+    "open_meteo_docs": "https://open-meteo.com/en/docs/historical-weather-api",
+    "period": "2005-01-01 through 2023-12-31",
+    "hourly_records_per_series": 166536
+  },
+  "weather_acquisition_complete": true,
+  "weather_responses": {
+    "france_grand_quevilly": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=49.41181100&lon=1.04138400&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/france_grand_quevilly_pvgis_era5_2005_2023.json",
+        "bytes": 15632016,
+        "sha256": "c05609c6071bdc381b388bfbf7796263460b48a1aed2f1f42f995b3abb007cf9",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=49.41181100&longitude=1.04138400&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/france_grand_quevilly_wind_era5_2005_2023.json",
+        "bytes": 4015583,
+        "sha256": "bbc7c2d65c472434eea07d02d33891de321ec885ee0e8835f16f00c408f72ab1",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "france_grandpuits_bailly_carrois": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=48.58544260&lon=2.97811660&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/france_grandpuits_bailly_carrois_pvgis_era5_2005_2023.json",
+        "bytes": 15635661,
+        "sha256": "4dff471348b63e6bc4eb5cda965ac095b7c10eaa53943bec277ef6e6a39c3c44",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=48.58544260&longitude=2.97811660&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/france_grandpuits_bailly_carrois_wind_era5_2005_2023.json",
+        "bytes": 4011245,
+        "sha256": "016a10d680c216131d769dd6a595db05c79f3fa959c96fce78e4a9c228edd9a0",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "france_le_havre": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=49.49437000&lon=0.10792900&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/france_le_havre_pvgis_era5_2005_2023.json",
+        "bytes": 15638025,
+        "sha256": "c64709d33ff344fe0d293fff1fd3533d8fe3d7f2e36fc2e2c067d674937e6696",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=49.49437000&longitude=0.10792900&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/france_le_havre_wind_era5_2005_2023.json",
+        "bytes": 4029419,
+        "sha256": "3fd7e5efa4ce3b1876ff9d2f477b675f087197e72bc26596b56776745f67a9b4",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "france_ottmarsheim": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=47.78719000&lon=7.50651200&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/france_ottmarsheim_pvgis_era5_2005_2023.json",
+        "bytes": 15637765,
+        "sha256": "980f83a8571c9e561c0da18ad24d818d41f439a771c53edc690109e0de18e386",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=47.78719000&longitude=7.50651200&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/france_ottmarsheim_wind_era5_2005_2023.json",
+        "bytes": 3999670,
+        "sha256": "dd0d1a99e74b25f1fb6db3a5262496e859372ccf9ad891ca715044508d8b3d3d",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "italy_ferrara": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=44.83912370&lon=11.61978700&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/italy_ferrara_pvgis_era5_2005_2023.json",
+        "bytes": 15663515,
+        "sha256": "187059900df35b119ea04a908c17a25aaf717fdb943c9fd81a727741e66dab0b",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=44.83912370&longitude=11.61978700&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/italy_ferrara_wind_era5_2005_2023.json",
+        "bytes": 3998673,
+        "sha256": "6a41e7f93d57334738739e9706f9699ea51d3f2c0a633b940bd32782609f9778",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "netherlands_geleen": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=50.96821390&lon=5.82772470&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/netherlands_geleen_pvgis_era5_2005_2023.json",
+        "bytes": 15623475,
+        "sha256": "60dd78aba1ba28f34616585d79d276712cacae5f38ed884ce52691f6b1124713",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.96821390&longitude=5.82772470&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/netherlands_geleen_wind_era5_2005_2023.json",
+        "bytes": 4013509,
+        "sha256": "96d44bd46c9ecb317f3de4770d415258be5b5738971bb49ebaa61b04f16521b0",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "netherlands_sluiskil": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=51.27770290&lon=3.83668810&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/netherlands_sluiskil_pvgis_era5_2005_2023.json",
+        "bytes": 15626524,
+        "sha256": "5b4e6b505ca120e456c3bb8ea61bea79ef61371f9525fcf9156911b611680175",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.27770290&longitude=3.83668810&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/netherlands_sluiskil_wind_era5_2005_2023.json",
+        "bytes": 4019662,
+        "sha256": "445a66f31dde47efe9f38149ce85057a6d8ef476701ba550c2e78f48160bffe2",
+        "reused_identical": true,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "poland_kedzierzyn": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=50.33781008&lon=18.18132860&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/poland_kedzierzyn_pvgis_era5_2005_2023.json",
+        "bytes": 15636533,
+        "sha256": "7c4b78f5f745049dcb8e605874f1d6308bcf74192d9fb0e8340ec80c8c6f5bb3",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.33781008&longitude=18.18132860&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/poland_kedzierzyn_wind_era5_2005_2023.json",
+        "bytes": 4008797,
+        "sha256": "22092e95f52761730952cb9f551f68b88301d97bbca0aea5bfcdf42ceae025e3",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "poland_police": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=53.56268242&lon=14.53863888&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/poland_police_pvgis_era5_2005_2023.json",
+        "bytes": 15621139,
+        "sha256": "d8e7a968434fbb3534bd42a228c7a1bc40d04cf12a6733dbb26d3f1f9ff85c26",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=53.56268242&longitude=14.53863888&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/poland_police_wind_era5_2005_2023.json",
+        "bytes": 4016018,
+        "sha256": "24c5246bc5e2eac6452a87a8d970c1a159726d46f13e43efc7e7f092277e7762",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "poland_pulawy": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=51.41644310&lon=21.96930900&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/poland_pulawy_pvgis_era5_2005_2023.json",
+        "bytes": 15632078,
+        "sha256": "fe77eb6f8b625473d3a5e4ecfe2adc0ac27b3e3bb1461295a1dc8b61c5860067",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=51.41644310&longitude=21.96930900&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/poland_pulawy_wind_era5_2005_2023.json",
+        "bytes": 4005505,
+        "sha256": "cf78e8200c52e2b36e0604d4b6fc75340de6b30452f468807e0cb7334fda000d",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "poland_tarnow": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=50.01310110&lon=20.98584070&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/poland_tarnow_pvgis_era5_2005_2023.json",
+        "bytes": 15636107,
+        "sha256": "e96c7e5a81d2e08f7e8b88f2f64ab1c460cea122b20feaf7d986248fd42f7d42",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=50.01310110&longitude=20.98584070&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/poland_tarnow_wind_era5_2005_2023.json",
+        "bytes": 4006089,
+        "sha256": "65290f5524846187d75495702ac87f40e563dedcb7cd3556481eb0bf376a6028",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "poland_wloclawek": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=52.64926108&lon=19.06773570&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/poland_wloclawek_pvgis_era5_2005_2023.json",
+        "bytes": 15626314,
+        "sha256": "b8233aaeea0a2812e44c3d5667fb03b35754b367fb557176f9f175e147fd9fc8",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=52.64926108&longitude=19.06773570&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/poland_wloclawek_wind_era5_2005_2023.json",
+        "bytes": 4010481,
+        "sha256": "51b420013e664d11ebb948b99c2f33ad288fb9f6d6f918f59e1ef130535bf408",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "spain_huelva": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=37.26195850&lon=-6.94273270&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/spain_huelva_pvgis_era5_2005_2023.json",
+        "bytes": 15716436,
+        "sha256": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=37.26195850&longitude=-6.94273270&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/spain_huelva_wind_era5_2005_2023.json",
+        "bytes": 4001829,
+        "sha256": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "spain_puertollano": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=38.68944580&lon=-4.10788770&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/spain_puertollano_pvgis_era5_2005_2023.json",
+        "bytes": 15677334,
+        "sha256": "d25eeb408b8c36a1d7be130545a41cf845b38ab86be62eb08c5bd7de2592a1cf",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=38.68944580&longitude=-4.10788770&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/spain_puertollano_wind_era5_2005_2023.json",
+        "bytes": 4000563,
+        "sha256": "ff8d7a9e67e40b1eb26ae75032d07a2107b97d6c6fceec54e9a1b98185804cfe",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    },
+    "spain_sabinanigo": {
+      "pvgis": {
+        "url": "https://re.jrc.ec.europa.eu/api/v5_3/seriescalc?lat=42.51935940&lon=-0.36381140&startyear=2005&endyear=2023&outputformat=json&pvcalculation=1&peakpower=1&loss=14&trackingtype=0&angle=35&aspect=0&raddatabase=PVGIS-ERA5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/pvgis/spain_sabinanigo_pvgis_era5_2005_2023.json",
+        "bytes": 15652342,
+        "sha256": "3cea403d66d656ff854c073ed86d82f0566da236ef9abb3e08c514f49227b77c",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "20050101:0030",
+          "last_time": "20231231:2330",
+          "meteo_database": "ERA5",
+          "power_unit": "W for a 1 kW fixed PV system; divide by 1000 for per-unit output"
+        }
+      },
+      "wind": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=42.51935940&longitude=-0.36381140&start_date=2005-01-01&end_date=2023-12-31&hourly=wind_speed_100m&wind_speed_unit=ms&timezone=UTC&models=era5",
+        "raw_path": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930/open_meteo/spain_sabinanigo_wind_era5_2005_2023.json",
+        "bytes": 3997352,
+        "sha256": "63aec529f2e20a026f623a44128b091df0cb9b206038aa10ca099e84704508a8",
+        "reused_identical": false,
+        "validation": {
+          "records": 166536,
+          "first_time": "2005-01-01T00:00",
+          "last_time": "2023-12-31T23:00",
+          "wind_speed_unit": null,
+          "timezone": "GMT",
+          "model_requested": "ERA5"
+        }
+      }
+    }
+  },
+  "weather_sites_acquired": 15,
+  "raw_root": "archival-path:f/AcademicData/project12_h2flex_eu/raw/eho_ammonia_site_weather_20260930"
+}

@@ -1,0 +1,27 @@
+name: Scientific package checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  integrity-and-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install the recorded environment
+        run: python -m pip install -r requirements.txt
+      - name: Verify every released scientific file and hourly cache
+        run: python src/reproduce_current_article.py --mode verify
+      - name: Run independent numerical tests
+        run: python -m pytest tests -q
+      - name: Rebuild figures and fail on text collisions
+        env:
+          MPLBACKEND: Agg
+        run: python src/build_nature_figures.py --results-root ./results --output-dir ./work/figures

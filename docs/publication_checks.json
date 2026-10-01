@@ -1,0 +1,126 @@
+{
+  "fresh_benchmark": {
+    "site_id": "spain_huelva",
+    "weather_year": 2019,
+    "cases": 3,
+    "matched_numeric_columns": 42,
+    "maximum_absolute_difference_by_column": {
+      "eho_record_count": 0.0,
+      "eho_reporting_year": 0.0,
+      "eho_h2_output_t_per_year_estimate": 0.0,
+      "service_reference_nh3_tph": 0.0,
+      "local_year_hours": 0.0,
+      "min_hb_load_fraction_of_nameplate": 0.0,
+      "hb_nameplate_multiple": 0.0,
+      "ramp_fraction_nameplate_per_hour": 0.0,
+      "nh3_buffer_limit_hours": 0.0,
+      "module_count_limit": 0.0,
+      "withdrawal_to_injection_ratio": 0.0,
+      "minimum_feasible_modules": 0.0,
+      "module_reference_service_hours_at_site_scale": 0.0,
+      "free_h2_storage_service_hours": 0.0,
+      "free_h2_storage_kg_per_normalized_tph": 0.0,
+      "pv_capacity_mw_per_normalized_tph": 0.0,
+      "wind_capacity_mw_per_normalized_tph": 0.0,
+      "electrolyser_capacity_mw_per_normalized_tph": 0.0,
+      "grid_connection_mw_per_normalized_tph": 0.0,
+      "renewable_overbuild": 0.0,
+      "wind_energy_share": 0.0,
+      "training_pv_cf_mean": 0.0,
+      "training_wind_cf_mean": 0.0,
+      "evaluation_pv_cf_mean": 0.0,
+      "evaluation_wind_cf_mean": 0.0,
+      "h2_storage_service_hours": 0.0,
+      "h2_storage_kg_at_site_scale": 0.0,
+      "h2_storage_tonnes_at_site_scale": 0.0,
+      "nh3_buffer_tonnes_at_site_scale": 0.0,
+      "annual_nh3_equivalent_t_at_site_scale": 0.0,
+      "grid_import_mwh_per_normalized_tph": 0.0,
+      "grid_import_mwh_at_site_scale": 0.0,
+      "max_h2_balance_residual_kgph": 8.077935669463161e-28,
+      "max_h2_storage_balance_residual_kg": 8.077935669463161e-28,
+      "max_nh3_balance_residual_tph": 0.0,
+      "max_annual_nh3_service_residual_t_per_normalized_tph": 0.0,
+      "max_hb_ramp_violation_tph_per_hour": 0.0,
+      "max_site_power_violation_mw": 0.0,
+      "max_hourly_matching_violation_mw": 2.0679515313825692e-25,
+      "max_h2_charge_kgph_per_normalized_tph": 0.0,
+      "max_h2_discharge_kgph_per_normalized_tph": 0.0,
+      "peak_nh3_buffer_use_t_per_normalized_tph": 0.0
+    },
+    "relative_tolerance": 1e-08,
+    "absolute_tolerance": 1e-05
+  },
+  "figures": [
+    {
+      "name": "figure1_service_capacity_frontier",
+      "all_fonts_embedded": true,
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "png_pixels": [
+        8740,
+        2929
+      ],
+      "vector_formats": [
+        "pdf",
+        "svg",
+        "eps"
+      ]
+    },
+    {
+      "name": "figure2_inventory_and_design",
+      "all_fonts_embedded": true,
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "png_pixels": [
+        8740,
+        3732
+      ],
+      "vector_formats": [
+        "pdf",
+        "svg",
+        "eps"
+      ]
+    },
+    {
+      "name": "figure3_independent_rate_certificates",
+      "all_fonts_embedded": true,
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "png_pixels": [
+        6283,
+        2551
+      ],
+      "vector_formats": [
+        "pdf",
+        "svg",
+        "eps"
+      ]
+    },
+    {
+      "name": "figure4_common_volume_deliverability",
+      "all_fonts_embedded": true,
+      "png_dpi": [
+        1199.9976,
+        1199.9976
+      ],
+      "png_pixels": [
+        8740,
+        2929
+      ],
+      "vector_formats": [
+        "pdf",
+        "svg",
+        "eps"
+      ]
+    }
+  ],
+  "layout_problems": [],
+  "publication_state": "checks passed"
+}

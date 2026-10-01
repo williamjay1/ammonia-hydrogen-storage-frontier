@@ -1,0 +1,11 @@
+scenario,crossing_bracketed,feasible_at_upper_test_bound,infeasible_at_lower_test_bound
+central_wtir2_buffer24,3,3,3
+exact_table14_rate,3,3,3
+large_cavern,3,6,0
+mid_cavern,0,6,3
+overbuild2,3,3,3
+slow_ramp,1,3,5
+wtir_1_buffer24,3,3,3
+wtir_2_buffer0,0,3,6
+wtir_2_buffer48,3,3,3
+wtir_5_buffer24,1,3,5

@@ -1,0 +1,563 @@
+{
+  "status": "validated_complete",
+  "rows": 90,
+  "classification_counts": {
+    "feasible_at_upper_test_bound": 36,
+    "infeasible_at_lower_test_bound": 34,
+    "crossing_bracketed": 20
+  },
+  "central_cases": [
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_sabinanigo",
+      "country": "Spain",
+      "city_cluster": "Sabi\u00f1\u00e1nigo",
+      "scale_anchor": "low",
+      "nh3_equivalent_service_tph": 0.6853699706521995,
+      "weather_year": 2015,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.6666666666666666,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": true,
+      "status_at_40pct": "optimal",
+      "status_at_66p7pct": "optimal",
+      "threshold_classification": "feasible_at_upper_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-cavern scenario threshold; not a measured plant operating limit or geological feasibility result.",
+      "evaluation_backend": "preserved_compact_checkpoint",
+      "maximum_checked_feasible_primal_residual": null,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_low"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_sabinanigo",
+      "country": "Spain",
+      "city_cluster": "Sabi\u00f1\u00e1nigo",
+      "scale_anchor": "low",
+      "nh3_equivalent_service_tph": 0.6853699706521995,
+      "weather_year": 2019,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.6666666666666666,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": true,
+      "status_at_40pct": "feasible_constructive_rigid_witness",
+      "status_at_66p7pct": "feasible_constructive_rigid_witness",
+      "threshold_classification": "feasible_at_upper_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-unit feasibility, not factory availability.",
+      "evaluation_backend": "checked_constructive_rigid_witness",
+      "maximum_checked_feasible_primal_residual": 7.400956292258343e-09,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_low"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_sabinanigo",
+      "country": "Spain",
+      "city_cluster": "Sabi\u00f1\u00e1nigo",
+      "scale_anchor": "low",
+      "nh3_equivalent_service_tph": 0.6853699706521995,
+      "weather_year": 2023,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.6666666666666666,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": true,
+      "status_at_40pct": "feasible_constructive_rigid_witness",
+      "status_at_66p7pct": "feasible_constructive_rigid_witness",
+      "threshold_classification": "feasible_at_upper_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-unit feasibility, not factory availability.",
+      "evaluation_backend": "checked_constructive_rigid_witness",
+      "maximum_checked_feasible_primal_residual": 1.6202079677896106e-09,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_low"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_huelva",
+      "country": "Spain",
+      "city_cluster": "Huelva",
+      "scale_anchor": "median",
+      "nh3_equivalent_service_tph": 30.468745693440656,
+      "weather_year": 2015,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.5333333333333333,
+      "minimum_load_fraction_upper_infeasible": 0.55,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "optimal",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "crossing_bracketed",
+      "solver_calls": 6,
+      "interpretation": "Conditional one-reference-cavern scenario threshold; not a measured plant operating limit or geological feasibility result.",
+      "evaluation_backend": "preserved_compact_checkpoint",
+      "maximum_checked_feasible_primal_residual": null,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_median"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_huelva",
+      "country": "Spain",
+      "city_cluster": "Huelva",
+      "scale_anchor": "median",
+      "nh3_equivalent_service_tph": 30.468745693440656,
+      "weather_year": 2019,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.6,
+      "minimum_load_fraction_upper_infeasible": 0.6166666666666667,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "optimal",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "crossing_bracketed",
+      "solver_calls": 6,
+      "interpretation": "Conditional one-reference-unit feasibility, not factory availability.",
+      "evaluation_backend": "expanded_highs_ds",
+      "maximum_checked_feasible_primal_residual": 8.821023911309566e-10,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_median"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "spain_huelva",
+      "country": "Spain",
+      "city_cluster": "Huelva",
+      "scale_anchor": "median",
+      "nh3_equivalent_service_tph": 30.468745693440656,
+      "weather_year": 2023,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": 0.5166666666666666,
+      "minimum_load_fraction_upper_infeasible": 0.5333333333333333,
+      "feasible_at_40pct_minimum_load": true,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "optimal",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "crossing_bracketed",
+      "solver_calls": 6,
+      "interpretation": "Conditional one-reference-unit feasibility, not factory availability.",
+      "evaluation_backend": "expanded_highs_ds",
+      "maximum_checked_feasible_primal_residual": 6.843290378810706e-10,
+      "source_partition": "cyclic_expanded_witness_threshold_v3_median"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "netherlands_sluiskil",
+      "country": "Netherlands",
+      "city_cluster": "Sluiskil",
+      "scale_anchor": "high",
+      "nh3_equivalent_service_tph": 143.35548063444742,
+      "weather_year": 2015,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": null,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": false,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "infeasible",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "infeasible_at_lower_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-cavern scenario threshold; not a measured plant operating limit or geological feasibility result.",
+      "evaluation_backend": null,
+      "maximum_checked_feasible_primal_residual": null,
+      "source_partition": "cyclic_compact_threshold_v2_high"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "netherlands_sluiskil",
+      "country": "Netherlands",
+      "city_cluster": "Sluiskil",
+      "scale_anchor": "high",
+      "nh3_equivalent_service_tph": 143.35548063444742,
+      "weather_year": 2019,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": null,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": false,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "infeasible",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "infeasible_at_lower_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-cavern scenario threshold; not a measured plant operating limit or geological feasibility result.",
+      "evaluation_backend": null,
+      "maximum_checked_feasible_primal_residual": null,
+      "source_partition": "cyclic_compact_threshold_v2_high"
+    },
+    {
+      "scenario": "central_wtir2_buffer24",
+      "site_id": "netherlands_sluiskil",
+      "country": "Netherlands",
+      "city_cluster": "Sluiskil",
+      "scale_anchor": "high",
+      "nh3_equivalent_service_tph": 143.35548063444742,
+      "weather_year": 2023,
+      "wtir": 2.0,
+      "product_buffer_cap_hours": 24.0,
+      "cavern_id": "high_investment_small_cavern",
+      "withdrawal_rate_million_sm3_day": 1.4,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "renewable_overbuild": 1.5,
+      "minimum_load_fraction_lower_feasible": null,
+      "minimum_load_fraction_upper_infeasible": null,
+      "feasible_at_40pct_minimum_load": false,
+      "feasible_at_66p7pct_minimum_load": false,
+      "status_at_40pct": "infeasible",
+      "status_at_66p7pct": "infeasible",
+      "threshold_classification": "infeasible_at_lower_test_bound",
+      "solver_calls": 2,
+      "interpretation": "Conditional one-reference-cavern scenario threshold; not a measured plant operating limit or geological feasibility result.",
+      "evaluation_backend": null,
+      "maximum_checked_feasible_primal_residual": null,
+      "source_partition": "cyclic_compact_threshold_v2_high"
+    }
+  ],
+  "sources": [
+    {
+      "partition": "cyclic_expanded_witness_threshold_v3_low",
+      "configuration": {
+        "anchor_selection": "minimum, median-order, and maximum EHO-derived service scale among 15 clusters",
+        "selected_site_ids": [
+          "spain_sabinanigo"
+        ],
+        "weather_years": [
+          2015,
+          2019,
+          2023
+        ],
+        "scenarios": [
+          {
+            "scenario": "central_wtir2_buffer24",
+            "wtir": 2.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_1_buffer24",
+            "wtir": 1.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_5_buffer24",
+            "wtir": 5.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_2_buffer0",
+            "wtir": 2.0,
+            "buffer_hours": 0.0
+          },
+          {
+            "scenario": "wtir_2_buffer48",
+            "wtir": 2.0,
+            "buffer_hours": 48.0
+          },
+          {
+            "scenario": "exact_table14_rate",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "withdrawal_rate_million_sm3_day": 1.3625
+          },
+          {
+            "scenario": "mid_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "mid_investment_cavern"
+          },
+          {
+            "scenario": "large_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "low_investment_large_cavern"
+          },
+          {
+            "scenario": "slow_ramp",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "ramp_fraction_nameplate_per_hour": 0.03
+          },
+          {
+            "scenario": "overbuild2",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "renewable_overbuild": 2.0
+          }
+        ],
+        "tested_minimum_load_fraction_range": [
+          0.4,
+          0.6666666666666666
+        ],
+        "bracket_tolerance": 0.025,
+        "solver": {
+          "method": "highs-ds",
+          "formulation": "expanded",
+          "threads": 1,
+          "witness": "complete original-matrix and bound-checked rigid schedule"
+        },
+        "fixed": {
+          "reference_caverns": 1,
+          "ramp_fraction_nameplate_per_hour": 0.6,
+          "boundary": "cyclic",
+          "renewable_design_years": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014
+          ],
+          "renewable_overbuild": 1.5,
+          "wind_energy_share": 0.5
+        }
+      },
+      "manifest_sha256": "fe067f8b2090b71571096fd7b51d66f8dd17154209064d172b3f25271375cbcd",
+      "csv_sha256": "ec511c6a64b0e50849c9cd9922d43572ea742090707e03af6c8388f5d9c9ab21"
+    },
+    {
+      "partition": "cyclic_expanded_witness_threshold_v3_median",
+      "configuration": {
+        "anchor_selection": "minimum, median-order, and maximum EHO-derived service scale among 15 clusters",
+        "selected_site_ids": [
+          "spain_huelva"
+        ],
+        "weather_years": [
+          2015,
+          2019,
+          2023
+        ],
+        "scenarios": [
+          {
+            "scenario": "central_wtir2_buffer24",
+            "wtir": 2.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_1_buffer24",
+            "wtir": 1.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_5_buffer24",
+            "wtir": 5.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_2_buffer0",
+            "wtir": 2.0,
+            "buffer_hours": 0.0
+          },
+          {
+            "scenario": "wtir_2_buffer48",
+            "wtir": 2.0,
+            "buffer_hours": 48.0
+          },
+          {
+            "scenario": "exact_table14_rate",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "withdrawal_rate_million_sm3_day": 1.3625
+          },
+          {
+            "scenario": "mid_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "mid_investment_cavern"
+          },
+          {
+            "scenario": "large_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "low_investment_large_cavern"
+          },
+          {
+            "scenario": "slow_ramp",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "ramp_fraction_nameplate_per_hour": 0.03
+          },
+          {
+            "scenario": "overbuild2",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "renewable_overbuild": 2.0
+          }
+        ],
+        "tested_minimum_load_fraction_range": [
+          0.4,
+          0.6666666666666666
+        ],
+        "bracket_tolerance": 0.025,
+        "solver": {
+          "method": "highs-ds",
+          "formulation": "expanded",
+          "threads": 1,
+          "witness": "complete original-matrix and bound-checked rigid schedule"
+        },
+        "fixed": {
+          "reference_caverns": 1,
+          "ramp_fraction_nameplate_per_hour": 0.6,
+          "boundary": "cyclic",
+          "renewable_design_years": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014
+          ],
+          "renewable_overbuild": 1.5,
+          "wind_energy_share": 0.5
+        }
+      },
+      "manifest_sha256": "0286adfe17bb1d7aa1742084a2261ab74cf5a2175ea370dc625ee3bc006d346b",
+      "csv_sha256": "8e3a290aa5118a681519b9a165a7e309f721fcf4a0c0a3b36cf469b388b24d97"
+    },
+    {
+      "partition": "cyclic_compact_threshold_v2_high",
+      "configuration": {
+        "anchor_selection": "minimum, median-order, and maximum EHO-derived service scale among 15 clusters",
+        "selected_site_ids": [
+          "netherlands_sluiskil"
+        ],
+        "weather_years": [
+          2015,
+          2019,
+          2023
+        ],
+        "scenarios": [
+          {
+            "scenario": "central_wtir2_buffer24",
+            "wtir": 2.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_1_buffer24",
+            "wtir": 1.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_5_buffer24",
+            "wtir": 5.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_2_buffer0",
+            "wtir": 2.0,
+            "buffer_hours": 0.0
+          },
+          {
+            "scenario": "wtir_2_buffer48",
+            "wtir": 2.0,
+            "buffer_hours": 48.0
+          },
+          {
+            "scenario": "exact_table14_rate",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "withdrawal_rate_million_sm3_day": 1.3625
+          },
+          {
+            "scenario": "mid_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "mid_investment_cavern"
+          },
+          {
+            "scenario": "large_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "low_investment_large_cavern"
+          },
+          {
+            "scenario": "slow_ramp",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "ramp_fraction_nameplate_per_hour": 0.03
+          },
+          {
+            "scenario": "overbuild2",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "renewable_overbuild": 2.0
+          }
+        ],
+        "tested_minimum_load_fraction_range": [
+          0.4,
+          0.6666666666666666
+        ],
+        "bracket_tolerance": 0.025,
+        "solver": {
+          "method": "highs-ipm",
+          "formulation": "compact",
+          "threads": 1,
+          "objective": "feasibility only; all original matrix and bound residuals checked"
+        },
+        "fixed": {
+          "reference_caverns": 1,
+          "ramp_fraction_nameplate_per_hour": 0.6,
+          "boundary": "cyclic",
+          "renewable_design_years": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014
+          ],
+          "renewable_overbuild": 1.5,
+          "wind_energy_share": 0.5
+        }
+      },
+      "manifest_sha256": "48c038fe7ca6c14815f0ee95e13aecfb6b4705c97651953ff4e340b6723ae318",
+      "csv_sha256": "9a63d009c9792f6540f300c48bc619eaa71074dc91b332116be593f7f8123762"
+    }
+  ],
+  "interpretation": "Numerical backends differ; equations, annual boundary, scenario grid and original-matrix feasibility checks do not. No probability or factory operating threshold is inferred."
+}

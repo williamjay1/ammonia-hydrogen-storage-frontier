@@ -1,0 +1,16 @@
+{
+  "status": "validated_complete",
+  "rows": 27,
+  "all_integer_counts_match": true,
+  "all_interval_bounds_satisfied": true,
+  "instantaneous_withdrawal_ceiling_attained_cases": 5,
+  "by_process_case": {
+    "flex_ml0p4_b24": 3,
+    "flex_ml0p6_b24": 2,
+    "rigid": 0
+  },
+  "minimum_distance_of_scaled_count_to_integer": 0.021006432142891995,
+  "script_sha256": "a478a6877307ce38aa734f6b8693ff346b3ffb01aefad0c293d4a4dd4a1d56cb",
+  "source_csv_sha256": "6c624c3b357775ff32c56249fda37f80460924009e508b9da55c82691dff9daf",
+  "primary_csv_sha256": "6cb07c19498d94d2cbf9d57be7134886d9e11640c34cfc262929e20b08c7e962"
+}

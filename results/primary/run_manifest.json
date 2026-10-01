@@ -1,0 +1,231 @@
+{
+  "created_utc": "2026-09-30T22:25:54.226365+00:00",
+  "run_label": "primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023",
+  "status": "complete",
+  "completed_rows": 405,
+  "task_total": 405,
+  "configuration": {
+    "years": [
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "cavern_cases": [
+      "high_investment_small_cavern"
+    ],
+    "wtir": [
+      2.0
+    ],
+    "process_scenarios": [
+      {
+        "name": "rigid",
+        "flexible": false,
+        "min_load_fraction": 1.0,
+        "buffer_hours": 0.0
+      },
+      {
+        "name": "flex_ml0p6_b24",
+        "flexible": true,
+        "min_load_fraction": 0.6,
+        "buffer_hours": 24.0
+      },
+      {
+        "name": "flex_ml0p4_b24",
+        "flexible": true,
+        "min_load_fraction": 0.4,
+        "buffer_hours": 24.0
+      }
+    ],
+    "hb_nameplate_multiple": 1.5,
+    "ramp_fraction_nameplate_per_hour": 0.6,
+    "storage_loss_per_hour": 0.0,
+    "compression_kwh_per_kg": 0.587,
+    "renewable_overbuild": 1.5,
+    "wind_energy_share": 0.5,
+    "matching_rule": "hourly electrolyser eligibility; direct grid support for site auxiliaries/compression is bounded by model connection and separately reported",
+    "boundary": "independent complete local civil year; cyclic H2 and NH3 stock boundary; perfect foresight",
+    "boundary_mode": "cyclic",
+    "weather_timestamp_convention": "PVGIS ERA5 hourly means stamped at UTC :30 are shifted to interval starts; Open-Meteo ERA5 hourly timestamps are used at UTC hour starts.",
+    "capacity_design_training_years": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014
+    ],
+    "solver_method": "highs-ds",
+    "lp_formulation": "expanded",
+    "solver_threads": 1,
+    "run_label": "primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023",
+    "site_ids": [
+      "france_grand_quevilly",
+      "france_grandpuits_bailly_carrois",
+      "france_le_havre",
+      "france_ottmarsheim",
+      "italy_ferrara",
+      "netherlands_geleen",
+      "netherlands_sluiskil",
+      "poland_kedzierzyn",
+      "poland_police",
+      "poland_pulawy",
+      "poland_tarnow",
+      "poland_wloclawek",
+      "spain_huelva",
+      "spain_puertollano",
+      "spain_sabinanigo"
+    ]
+  },
+  "input_hashes": {
+    "D:\\MLWork\\project12_h2flex_eu\\datasets\\eho_ammonia_site_clusters_v1_20260930.csv": "d6b791e166bd625d8d3b56d6a3b5a1d7e5ad6feaab15e8a2a01a2ee48ce55579"
+  },
+  "code_hashes": {
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_site_module_frontier.py": "d4baf341a7e7458eae2331bf3d2fcf71fa071dfebf90062b77189cc46b84f5f2",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_cavern_module_frontier.py": "74176786c74102dac44eed87b31617053304b1ecd4f0c146daff443176df61f6",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier.py": "014bbbb22fad66581285a9d1c9a225801fed565436bcda0e70065272b152f916",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier_aux.py": "98ba855d28a702e5c7bb48f108dc3566292e737c8d77d5dc808449f31cc95d79",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\rfnbo_inventory_frontier.py": "810ed1f9a97525c7639f069ea1b05c424ef267677d7e8b1b555c5a9d849deb6b",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\prepare_parallel_primary.py": "dc7937a46a681430954199ca8e3edd38233e788e094f247ea49a2d26e4bdf5a0"
+  },
+  "weather_raw_hashes": {
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\france_grand_quevilly_pvgis_era5_2005_2023.json": "c05609c6071bdc381b388bfbf7796263460b48a1aed2f1f42f995b3abb007cf9",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\france_grand_quevilly_wind_era5_2005_2023.json": "bbc7c2d65c472434eea07d02d33891de321ec885ee0e8835f16f00c408f72ab1",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\france_grandpuits_bailly_carrois_pvgis_era5_2005_2023.json": "4dff471348b63e6bc4eb5cda965ac095b7c10eaa53943bec277ef6e6a39c3c44",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\france_grandpuits_bailly_carrois_wind_era5_2005_2023.json": "016a10d680c216131d769dd6a595db05c79f3fa959c96fce78e4a9c228edd9a0",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\france_le_havre_pvgis_era5_2005_2023.json": "c64709d33ff344fe0d293fff1fd3533d8fe3d7f2e36fc2e2c067d674937e6696",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\france_le_havre_wind_era5_2005_2023.json": "3fd7e5efa4ce3b1876ff9d2f477b675f087197e72bc26596b56776745f67a9b4",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\france_ottmarsheim_pvgis_era5_2005_2023.json": "980f83a8571c9e561c0da18ad24d818d41f439a771c53edc690109e0de18e386",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\france_ottmarsheim_wind_era5_2005_2023.json": "dd0d1a99e74b25f1fb6db3a5262496e859372ccf9ad891ca715044508d8b3d3d",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\netherlands_sluiskil_pvgis_era5_2005_2023.json": "5b4e6b505ca120e456c3bb8ea61bea79ef61371f9525fcf9156911b611680175",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\netherlands_sluiskil_wind_era5_2005_2023.json": "445a66f31dde47efe9f38149ce85057a6d8ef476701ba550c2e78f48160bffe2",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\poland_kedzierzyn_pvgis_era5_2005_2023.json": "7c4b78f5f745049dcb8e605874f1d6308bcf74192d9fb0e8340ec80c8c6f5bb3",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\poland_kedzierzyn_wind_era5_2005_2023.json": "22092e95f52761730952cb9f551f68b88301d97bbca0aea5bfcdf42ceae025e3",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\poland_police_pvgis_era5_2005_2023.json": "d8e7a968434fbb3534bd42a228c7a1bc40d04cf12a6733dbb26d3f1f9ff85c26",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\poland_police_wind_era5_2005_2023.json": "24c5246bc5e2eac6452a87a8d970c1a159726d46f13e43efc7e7f092277e7762",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\poland_pulawy_pvgis_era5_2005_2023.json": "fe77eb6f8b625473d3a5e4ecfe2adc0ac27b3e3bb1461295a1dc8b61c5860067",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\poland_pulawy_wind_era5_2005_2023.json": "cf78e8200c52e2b36e0604d4b6fc75340de6b30452f468807e0cb7334fda000d",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\poland_tarnow_pvgis_era5_2005_2023.json": "e96c7e5a81d2e08f7e8b88f2f64ab1c460cea122b20feaf7d986248fd42f7d42",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\poland_tarnow_wind_era5_2005_2023.json": "65290f5524846187d75495702ac87f40e563dedcb7cd3556481eb0bf376a6028",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\poland_wloclawek_pvgis_era5_2005_2023.json": "b8233aaeea0a2812e44c3d5667fb03b35754b367fb557176f9f175e147fd9fc8",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\poland_wloclawek_wind_era5_2005_2023.json": "51b420013e664d11ebb948b99c2f33ad288fb9f6d6f918f59e1ef130535bf408",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_huelva_pvgis_era5_2005_2023.json": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_huelva_wind_era5_2005_2023.json": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_puertollano_pvgis_era5_2005_2023.json": "d25eeb408b8c36a1d7be130545a41cf845b38ab86be62eb08c5bd7de2592a1cf",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_puertollano_wind_era5_2005_2023.json": "ff8d7a9e67e40b1eb26ae75032d07a2107b97d6c6fceec54e9a1b98185804cfe",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_sabinanigo_pvgis_era5_2005_2023.json": "3cea403d66d656ff854c073ed86d82f0566da236ef9abb3e08c514f49227b77c",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_sabinanigo_wind_era5_2005_2023.json": "63aec529f2e20a026f623a44128b091df0cb9b206038aa10ca099e84704508a8",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\italy_ferrara_pvgis_era5_2005_2023.json": "187059900df35b119ea04a908c17a25aaf717fdb943c9fd81a727741e66dab0b",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\italy_ferrara_wind_era5_2005_2023.json": "6a41e7f93d57334738739e9706f9699ea51d3f2c0a633b940bd32782609f9778",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\netherlands_geleen_pvgis_era5_2005_2023.json": "60dd78aba1ba28f34616585d79d276712cacae5f38ed884ce52691f6b1124713",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\netherlands_geleen_wind_era5_2005_2023.json": "96d44bd46c9ecb317f3de4770d415258be5b5738971bb49ebaa61b04f16521b0"
+  },
+  "shard_provenance": [
+    {
+      "label": "primary_cyclic_v5_ds1_shard1",
+      "manifest_sha256": "c751d2e5e5561368b9399825497497e161a79333d3f1013070c33baa61ff10f3",
+      "csv_sha256": "8a9fc5581e591255d78db4ddab8295f2fb7acb9f76780d9732c358cf7d2d4a04",
+      "trace_sha256": "ca49b5c06afb35660b285fa9333cf93f440bc4e5f1ca99f5af91f7943c7ac62f",
+      "site_ids": [
+        "france_grand_quevilly",
+        "france_grandpuits_bailly_carrois"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard2",
+      "manifest_sha256": "ccffa553d0b732c25148f7c7d4b026aafa93dda10338daeba334175317d08a1c",
+      "csv_sha256": "3dcde63269aa3627688f978fc4ffa16c29655e220ebcb8d505efecdd6bf92bf3",
+      "trace_sha256": "14507dbc16e1d97febe5f5cea8ecff4b1979df4071807682d4280f3b773a1a8c",
+      "site_ids": [
+        "france_le_havre",
+        "france_ottmarsheim"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard4",
+      "manifest_sha256": "5b8bea21010b197f2b334346c6390c512907074f4615ebbe6be17b49333eded8",
+      "csv_sha256": "aa60e0b4670b84d5ec7e90be0db1de8ab30db395120679bf3c98ffedf4fe41f6",
+      "trace_sha256": "246075bc0d623960cb3bee04aeeb3e4f7f576ada162ea80ea5608748e68072cc",
+      "site_ids": [
+        "netherlands_sluiskil",
+        "poland_kedzierzyn"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard5",
+      "manifest_sha256": "410f713118431223bf7c2f2aa6aab29c7fc9f10a34e3412a88185fd2aa5ad1f7",
+      "csv_sha256": "1dd079e3630fd004aa98c046eb4aebf9e9f99fa766e1af7b2116bcab8f0762c4",
+      "trace_sha256": "1b6e5eaf844b9a8eb0f6af49412eb9e183eecc2ca7f9f788886dcfdf13bedac1",
+      "site_ids": [
+        "poland_police",
+        "poland_pulawy"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard6",
+      "manifest_sha256": "3673cfe90bad06c83e376ac8e5e296ef58d3c393d10729c842f3e81cdba6560d",
+      "csv_sha256": "47aaa676bc26e2a8f6a1569c3a4e1f3b7f2b18768c28673335a0420645bc4651",
+      "trace_sha256": "c4eacd20b25d1cc7dae4d407e8925ec8cb62e43bd3ed4861a85f0aab8b3c9a51",
+      "site_ids": [
+        "poland_tarnow",
+        "poland_wloclawek"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard7",
+      "manifest_sha256": "abe5cc7d37019a34ebfb6b8fd5333843cef148eac1be0efa1e0d8251e4442f81",
+      "csv_sha256": "bc595b018fb5b39b13eb0d5a025874c5d85fb5195e256d1b1c139d1cdb5cee84",
+      "trace_sha256": "64cbcdecfe2114d64cc88bf2093fc11b5ac36cdb8a69f5d5760ff9cba1d85d43",
+      "site_ids": [
+        "spain_huelva",
+        "spain_puertollano"
+      ],
+      "rows": 54
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_shard8",
+      "manifest_sha256": "ef4ffaf89ec324416634affdd80e1582528478a3401c77102e78598a12d3b52a",
+      "csv_sha256": "f8432c6446e3bb0a278536a85d10a98cad9a4a387e0cca028f194b8750985e45",
+      "trace_sha256": "a00cb56c664c1dc96627c190d5558894218334761a8e044b3e8d8241f1dcc971",
+      "site_ids": [
+        "spain_sabinanigo"
+      ],
+      "rows": 27
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_ferrara_complete",
+      "manifest_sha256": "f18f07f989c356e833087d57b6b643ce0ada01c57c22073ddc9e3e53f8050675",
+      "csv_sha256": "604efdb6a1b84d8851519e6f3df184b8143b53dd98ac1e6c4d08e85ae0456f22",
+      "trace_sha256": "1dcc1a2269708a36686b616694b2eecbda5bd47fb8e0812cbf819085641c5bf2",
+      "site_ids": [
+        "italy_ferrara"
+      ],
+      "rows": 27
+    },
+    {
+      "label": "primary_cyclic_v5_ds1_geleen_complete",
+      "manifest_sha256": "c0fdbd3e3ec34dc3af2ce5a9cbc610b26e4e0be176bbadb1fb9567fd9014ccef",
+      "csv_sha256": "ae58baf4b78976c3cb19f676b779e0601ce4cbbaa899f12ada063c732e2f8ba1",
+      "trace_sha256": "702ae905071bfe13128c80ef3667d977b9b4af1bbe3bf056b0bb85e22ae79c43",
+      "site_ids": [
+        "netherlands_geleen"
+      ],
+      "rows": 27
+    }
+  ],
+  "trace_included": true,
+  "interpretation_boundary": "EHO annual H2 outputs are estimates; sample coverage is 15 city clusters in five EU states. Weather-year adequacy is not measured plant reliability, cavern availability, or EU-27 census inference."
+}

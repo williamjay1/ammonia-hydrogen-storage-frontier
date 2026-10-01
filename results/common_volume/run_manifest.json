@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "completed_rows": 27,
+  "scope": "Only the complete predeclared three-anchor/three-year/three-process subgrid; the 405-case main run remains in progress.",
+  "anchor_site_ids": [
+    "netherlands_sluiskil",
+    "spain_huelva",
+    "spain_sabinanigo"
+  ],
+  "years": [
+    2015,
+    2019,
+    2023
+  ],
+  "process_cases": [
+    "rigid",
+    "flex_ml0p6_b24",
+    "flex_ml0p4_b24"
+  ],
+  "primary_provenance": [
+    {
+      "directory": "archival-path:d/MLWork/project12_h2flex_eu/results/eho_site_module_frontier/primary_cyclic_v5_ds1_shard4",
+      "full_partition_status_at_extraction": "running",
+      "source_csv_sha256_at_extraction": "38fcf0407994f621a5949a5a589b1971d655a28c1a6bd710682a48290a94af32"
+    },
+    {
+      "directory": "archival-path:d/MLWork/project12_h2flex_eu/results/eho_site_module_frontier/primary_cyclic_v5_ds1_shard7",
+      "full_partition_status_at_extraction": "running",
+      "source_csv_sha256_at_extraction": "a33b6336f717de6f2f29f0a8263c35d3bc98f49982d178b7987a83cb7609890c"
+    },
+    {
+      "directory": "archival-path:d/MLWork/project12_h2flex_eu/results/eho_site_module_frontier/primary_cyclic_v5_ds1_shard8",
+      "full_partition_status_at_extraction": "complete",
+      "source_csv_sha256_at_extraction": "f8432c6446e3bb0a278536a85d10a98cad9a4a387e0cca028f194b8750985e45"
+    }
+  ],
+  "script_sha256": "ee00cba04d2a68a1287395623a858017567f299ba484edd637cc8bb30336bbc1"
+}

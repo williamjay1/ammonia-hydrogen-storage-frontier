@@ -1,0 +1,284 @@
+{
+  "status": "passed",
+  "sample_path": "archival-path:d/MLWork/project12_h2flex_eu/datasets/eho_ammonia_site_clusters_v1_20260930.csv",
+  "sample_rows": 15,
+  "sites_validated": 15,
+  "years": [
+    2005,
+    2023
+  ],
+  "expected_records_per_site_per_source": 166536,
+  "time_basis": "UTC hourly interval starts; PVGIS :30 means shifted back by 30 minutes",
+  "records": [
+    {
+      "site_id": "france_grand_quevilly",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15632016,
+      "open_meteo_raw_bytes": 4015583,
+      "pvgis_sha256": "c05609c6071bdc381b388bfbf7796263460b48a1aed2f1f42f995b3abb007cf9",
+      "open_meteo_sha256": "bbc7c2d65c472434eea07d02d33891de321ec885ee0e8835f16f00c408f72ab1",
+      "pv_min_max_pu": [
+        0.0,
+        0.91162
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        23.02
+      ]
+    },
+    {
+      "site_id": "france_grandpuits_bailly_carrois",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15635661,
+      "open_meteo_raw_bytes": 4011245,
+      "pvgis_sha256": "4dff471348b63e6bc4eb5cda965ac095b7c10eaa53943bec277ef6e6a39c3c44",
+      "open_meteo_sha256": "016a10d680c216131d769dd6a595db05c79f3fa959c96fce78e4a9c228edd9a0",
+      "pv_min_max_pu": [
+        0.0,
+        0.91775
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        23.62
+      ]
+    },
+    {
+      "site_id": "france_le_havre",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15638025,
+      "open_meteo_raw_bytes": 4029419,
+      "pvgis_sha256": "c64709d33ff344fe0d293fff1fd3533d8fe3d7f2e36fc2e2c067d674937e6696",
+      "open_meteo_sha256": "3fd7e5efa4ce3b1876ff9d2f477b675f087197e72bc26596b56776745f67a9b4",
+      "pv_min_max_pu": [
+        0.0,
+        0.90132
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        26.47
+      ]
+    },
+    {
+      "site_id": "france_ottmarsheim",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15637765,
+      "open_meteo_raw_bytes": 3999670,
+      "pvgis_sha256": "980f83a8571c9e561c0da18ad24d818d41f439a771c53edc690109e0de18e386",
+      "open_meteo_sha256": "dd0d1a99e74b25f1fb6db3a5262496e859372ccf9ad891ca715044508d8b3d3d",
+      "pv_min_max_pu": [
+        0.0,
+        0.88763
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        17.76
+      ]
+    },
+    {
+      "site_id": "italy_ferrara",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15663515,
+      "open_meteo_raw_bytes": 3998673,
+      "pvgis_sha256": "187059900df35b119ea04a908c17a25aaf717fdb943c9fd81a727741e66dab0b",
+      "open_meteo_sha256": "6a41e7f93d57334738739e9706f9699ea51d3f2c0a633b940bd32782609f9778",
+      "pv_min_max_pu": [
+        0.0,
+        0.89743
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        16.52
+      ]
+    },
+    {
+      "site_id": "netherlands_geleen",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15623475,
+      "open_meteo_raw_bytes": 4013509,
+      "pvgis_sha256": "60dd78aba1ba28f34616585d79d276712cacae5f38ed884ce52691f6b1124713",
+      "open_meteo_sha256": "96d44bd46c9ecb317f3de4770d415258be5b5738971bb49ebaa61b04f16521b0",
+      "pv_min_max_pu": [
+        0.0,
+        0.87188
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        23.4
+      ]
+    },
+    {
+      "site_id": "netherlands_sluiskil",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15626524,
+      "open_meteo_raw_bytes": 4019662,
+      "pvgis_sha256": "5b4e6b505ca120e456c3bb8ea61bea79ef61371f9525fcf9156911b611680175",
+      "open_meteo_sha256": "445a66f31dde47efe9f38149ce85057a6d8ef476701ba550c2e78f48160bffe2",
+      "pv_min_max_pu": [
+        0.0,
+        0.87925
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        24.16
+      ]
+    },
+    {
+      "site_id": "poland_kedzierzyn",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15636533,
+      "open_meteo_raw_bytes": 4008797,
+      "pvgis_sha256": "7c4b78f5f745049dcb8e605874f1d6308bcf74192d9fb0e8340ec80c8c6f5bb3",
+      "open_meteo_sha256": "22092e95f52761730952cb9f551f68b88301d97bbca0aea5bfcdf42ceae025e3",
+      "pv_min_max_pu": [
+        0.0,
+        0.87985
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        20.24
+      ]
+    },
+    {
+      "site_id": "poland_police",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15621139,
+      "open_meteo_raw_bytes": 4016018,
+      "pvgis_sha256": "d8e7a968434fbb3534bd42a228c7a1bc40d04cf12a6733dbb26d3f1f9ff85c26",
+      "open_meteo_sha256": "24c5246bc5e2eac6452a87a8d970c1a159726d46f13e43efc7e7f092277e7762",
+      "pv_min_max_pu": [
+        0.0,
+        0.9195800000000001
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        22.39
+      ]
+    },
+    {
+      "site_id": "poland_pulawy",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15632078,
+      "open_meteo_raw_bytes": 4005505,
+      "pvgis_sha256": "fe77eb6f8b625473d3a5e4ecfe2adc0ac27b3e3bb1461295a1dc8b61c5860067",
+      "open_meteo_sha256": "cf78e8200c52e2b36e0604d4b6fc75340de6b30452f468807e0cb7334fda000d",
+      "pv_min_max_pu": [
+        0.0,
+        0.86729
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        19.89
+      ]
+    },
+    {
+      "site_id": "poland_tarnow",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15636107,
+      "open_meteo_raw_bytes": 4006089,
+      "pvgis_sha256": "e96c7e5a81d2e08f7e8b88f2f64ab1c460cea122b20feaf7d986248fd42f7d42",
+      "open_meteo_sha256": "65290f5524846187d75495702ac87f40e563dedcb7cd3556481eb0bf376a6028",
+      "pv_min_max_pu": [
+        0.0,
+        0.89413
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        19.63
+      ]
+    },
+    {
+      "site_id": "poland_wloclawek",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15626314,
+      "open_meteo_raw_bytes": 4010481,
+      "pvgis_sha256": "b8233aaeea0a2812e44c3d5667fb03b35754b367fb557176f9f175e147fd9fc8",
+      "open_meteo_sha256": "51b420013e664d11ebb948b99c2f33ad288fb9f6d6f918f59e1ef130535bf408",
+      "pv_min_max_pu": [
+        0.0,
+        0.93149
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        21.71
+      ]
+    },
+    {
+      "site_id": "spain_huelva",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15716436,
+      "open_meteo_raw_bytes": 4001829,
+      "pvgis_sha256": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+      "open_meteo_sha256": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f",
+      "pv_min_max_pu": [
+        0.0,
+        0.91115
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        20.59
+      ]
+    },
+    {
+      "site_id": "spain_puertollano",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15677334,
+      "open_meteo_raw_bytes": 4000563,
+      "pvgis_sha256": "d25eeb408b8c36a1d7be130545a41cf845b38ab86be62eb08c5bd7de2592a1cf",
+      "open_meteo_sha256": "ff8d7a9e67e40b1eb26ae75032d07a2107b97d6c6fceec54e9a1b98185804cfe",
+      "pv_min_max_pu": [
+        0.0,
+        0.9239400000000001
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        19.05
+      ]
+    },
+    {
+      "site_id": "spain_sabinanigo",
+      "records_per_source": 166536,
+      "first_interval_utc": "2005-01-01T00:00:00+00:00",
+      "last_interval_utc": "2023-12-31T23:00:00+00:00",
+      "pvgis_raw_bytes": 15652342,
+      "open_meteo_raw_bytes": 3997352,
+      "pvgis_sha256": "3cea403d66d656ff854c073ed86d82f0566da236ef9abb3e08c514f49227b77c",
+      "open_meteo_sha256": "63aec529f2e20a026f623a44128b091df0cb9b206038aa10ca099e84704508a8",
+      "pv_min_max_pu": [
+        0.0,
+        0.9444600000000001
+      ],
+      "wind_min_max_m_s": [
+        0.0,
+        14.52
+      ]
+    }
+  ]
+}

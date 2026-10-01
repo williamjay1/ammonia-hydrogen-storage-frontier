@@ -1,0 +1,115 @@
+{
+  "status": "validated_complete",
+  "blocks": {
+    "wind": {
+      "rows": 36,
+      "statuses": {
+        "optimal": 36
+      },
+      "maximum_residual": 1.2709563179669205e-08,
+      "csv_sha256": "2924de0375687e6627cd961cb36f8ec4c08d55d916e01ed5d57df8569fe557aa",
+      "by_level": {
+        "0.25": {
+          "pairs": 9,
+          "median_pct": 24.336138368404626,
+          "iqr_pct": [
+            21.05955889277624,
+            29.607606819605593
+          ],
+          "range_pct": [
+            17.801491258602198,
+            33.90793209221168
+          ],
+          "positive_pairs": 9
+        },
+        "0.75": {
+          "pairs": 9,
+          "median_pct": 20.168117817636187,
+          "iqr_pct": [
+            11.111111111111116,
+            26.667678970753062
+          ],
+          "range_pct": [
+            2.2768972715556446,
+            32.33747844623942
+          ],
+          "positive_pairs": 9
+        }
+      }
+    },
+    "volume": {
+      "rows": 36,
+      "statuses": {
+        "optimal": 36
+      },
+      "maximum_residual": 6.530171958729625e-10,
+      "csv_sha256": "36e84404186d29a9040184d7c8e4ae2a5d9ef72c419a13b257bfa0bb1c016d5e",
+      "by_level": {
+        "low_investment_large_cavern": {
+          "pairs": 9,
+          "median_pct": 19.66775132866102,
+          "iqr_pct": [
+            17.40421926871467,
+            20.73602037930815
+          ],
+          "range_pct": [
+            10.000000000000009,
+            44.859549585409965
+          ],
+          "positive_pairs": 9
+        },
+        "mid_investment_cavern": {
+          "pairs": 9,
+          "median_pct": 20.496148663531443,
+          "iqr_pct": [
+            17.40421926871467,
+            25.33217285532884
+          ],
+          "range_pct": [
+            10.000000000000009,
+            44.73141281148185
+          ],
+          "positive_pairs": 9
+        }
+      }
+    },
+    "grid": {
+      "rows": 18,
+      "statuses": {
+        "optimal": 12,
+        "infeasible": 6
+      },
+      "maximum_residual": 1.2023519957438111e-09,
+      "csv_sha256": "be0b5921e72d20918052011b1ea517d8e39540153fd345e061b1651fdda5d8a2",
+      "maximum_stock_identity_residual_kg": 2.557953848736361e-12,
+      "by_level": {
+        "0.6": {
+          "inventory_relief_service_hours_by_year": {
+            "2015": 18.75179345814989,
+            "2019": 8.736438876482708,
+            "2023": 22.29975629928311
+          },
+          "all_relief_within_24h": true,
+          "same_electrolysis_rigid_reconstruction_feasible_pairs": 0,
+          "grid_capacity_mw_per_normalized_tph": 0.4542691715813727
+        },
+        "1.0": {
+          "inventory_relief_service_hours_by_year": {
+            "2015": 18.22342427817474,
+            "2019": 8.700000000000003,
+            "2023": 22.008143591145647
+          },
+          "all_relief_within_24h": true,
+          "same_electrolysis_rigid_reconstruction_feasible_pairs": 3,
+          "grid_capacity_mw_per_normalized_tph": 0.7571152859689545
+        }
+      }
+    }
+  },
+  "buffer_mass_tonnes": {
+    "spain_sabinanigo": 16.448879295652787,
+    "spain_huelva": 731.2498966425758,
+    "netherlands_sluiskil": 3440.531535226738
+  },
+  "scope": "All declared parametric cases, not observed clusters, a probability sample or plant/subsurface validation."
+}

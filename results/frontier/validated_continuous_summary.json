@@ -1,0 +1,36 @@
+{
+  "status": "validated_complete",
+  "rows": 27,
+  "matched_anchor_year_pairs_per_comparison": 9,
+  "maximum_primal_residual": 2.179007196900784e-09,
+  "by_flex_case": {
+    "flex_ml0p4_b24": {
+      "median_service_capacity_gain_pct": 67.12018423368792,
+      "range_service_capacity_gain_pct": [
+        39.936382038265435,
+        98.01073442663466
+      ],
+      "iqr_service_capacity_gain_pct": [
+        59.70971948591577,
+        82.36735640914432
+      ],
+      "median_bundled_allowance_reduction_pct": 40.162823264862055,
+      "strictly_positive_pairs": 9
+    },
+    "flex_ml0p6_b24": {
+      "median_service_capacity_gain_pct": 21.059160858261095,
+      "range_service_capacity_gain_pct": [
+        11.413456155791968,
+        29.054374314483013
+      ],
+      "iqr_service_capacity_gain_pct": [
+        19.514597960665192,
+        23.264516289068716
+      ],
+      "median_bundled_allowance_reduction_pct": 17.39575981607675,
+      "strictly_positive_pairs": 9
+    }
+  },
+  "source_csv_sha256": "6c624c3b357775ff32c56249fda37f80460924009e508b9da55c82691dff9daf",
+  "interpretation": "Capacity gain of a generic bundled volume-and-rate allowance under enumerated weather; no factory availability or EU population inference."
+}

@@ -1,0 +1,241 @@
+{
+  "status": "complete",
+  "configuration": {
+    "anchor_selection": "minimum, median-order, and maximum EHO-derived service scale among 15 clusters",
+    "selected_site_ids": [
+      "spain_huelva"
+    ],
+    "weather_years": [
+      2015,
+      2019,
+      2023
+    ],
+    "scenarios": [
+      {
+        "scenario": "central_wtir2_buffer24",
+        "wtir": 2.0,
+        "buffer_hours": 24.0
+      },
+      {
+        "scenario": "wtir_1_buffer24",
+        "wtir": 1.0,
+        "buffer_hours": 24.0
+      },
+      {
+        "scenario": "wtir_5_buffer24",
+        "wtir": 5.0,
+        "buffer_hours": 24.0
+      },
+      {
+        "scenario": "wtir_2_buffer0",
+        "wtir": 2.0,
+        "buffer_hours": 0.0
+      },
+      {
+        "scenario": "wtir_2_buffer48",
+        "wtir": 2.0,
+        "buffer_hours": 48.0
+      },
+      {
+        "scenario": "exact_table14_rate",
+        "wtir": 2.0,
+        "buffer_hours": 24.0,
+        "withdrawal_rate_million_sm3_day": 1.3625
+      },
+      {
+        "scenario": "mid_cavern",
+        "wtir": 2.0,
+        "buffer_hours": 24.0,
+        "cavern_id": "mid_investment_cavern"
+      },
+      {
+        "scenario": "large_cavern",
+        "wtir": 2.0,
+        "buffer_hours": 24.0,
+        "cavern_id": "low_investment_large_cavern"
+      },
+      {
+        "scenario": "slow_ramp",
+        "wtir": 2.0,
+        "buffer_hours": 24.0,
+        "ramp_fraction_nameplate_per_hour": 0.03
+      },
+      {
+        "scenario": "overbuild2",
+        "wtir": 2.0,
+        "buffer_hours": 24.0,
+        "renewable_overbuild": 2.0
+      }
+    ],
+    "tested_minimum_load_fraction_range": [
+      0.4,
+      0.6666666666666666
+    ],
+    "bracket_tolerance": 0.025,
+    "solver": {
+      "method": "highs-ds",
+      "formulation": "expanded",
+      "threads": 1,
+      "witness": "complete original-matrix and bound-checked rigid schedule"
+    },
+    "fixed": {
+      "reference_caverns": 1,
+      "ramp_fraction_nameplate_per_hour": 0.6,
+      "boundary": "cyclic",
+      "renewable_design_years": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014
+      ],
+      "renewable_overbuild": 1.5,
+      "wind_energy_share": 0.5
+    }
+  },
+  "completed_rows": 30,
+  "expected_rows": 30,
+  "code_sha256": {
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_threshold_robustness.py": "369711711e7377e5db0cc4a6aad21af495a0c539b25072e255bca47fcd242c57",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_site_module_frontier.py": "d4baf341a7e7458eae2331bf3d2fcf71fa071dfebf90062b77189cc46b84f5f2",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_cavern_module_frontier.py": "74176786c74102dac44eed87b31617053304b1ecd4f0c146daff443176df61f6",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier.py": "014bbbb22fad66581285a9d1c9a225801fed565436bcda0e70065272b152f916",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\compact_cavern_lp.py": "f31fcdc0e82386f253b46708d86a4d432136f6f6849e063108c5a31efa0e3b31",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier_aux.py": "98ba855d28a702e5c7bb48f108dc3566292e737c8d77d5dc808449f31cc95d79",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\rfnbo_inventory_frontier.py": "810ed1f9a97525c7639f069ea1b05c424ef267677d7e8b1b555c5a9d849deb6b",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\resume_eho_threshold_expanded.py": "667cc8ac4305301fee5aa47e58c8c462e995f8a36a28e3267b3ce2f016db0062"
+  },
+  "input_sha256": {
+    "D:\\MLWork\\project12_h2flex_eu\\datasets\\eho_ammonia_site_clusters_v1_20260930.csv": "d6b791e166bd625d8d3b56d6a3b5a1d7e5ad6feaab15e8a2a01a2ee48ce55579",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_huelva_pvgis_era5_2005_2023.json": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_huelva_wind_era5_2005_2023.json": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f"
+  },
+  "seed_provenance": {
+    "directory": "archival-path:d/MLWork/project12_h2flex_eu/results/eho_threshold_sensitivity/cyclic_compact_threshold_v2_median",
+    "manifest": {
+      "status": "running",
+      "configuration": {
+        "anchor_selection": "minimum, median-order, and maximum EHO-derived service scale among 15 clusters",
+        "selected_site_ids": [
+          "spain_huelva"
+        ],
+        "weather_years": [
+          2015,
+          2019,
+          2023
+        ],
+        "scenarios": [
+          {
+            "scenario": "central_wtir2_buffer24",
+            "wtir": 2.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_1_buffer24",
+            "wtir": 1.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_5_buffer24",
+            "wtir": 5.0,
+            "buffer_hours": 24.0
+          },
+          {
+            "scenario": "wtir_2_buffer0",
+            "wtir": 2.0,
+            "buffer_hours": 0.0
+          },
+          {
+            "scenario": "wtir_2_buffer48",
+            "wtir": 2.0,
+            "buffer_hours": 48.0
+          },
+          {
+            "scenario": "exact_table14_rate",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "withdrawal_rate_million_sm3_day": 1.3625
+          },
+          {
+            "scenario": "mid_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "mid_investment_cavern"
+          },
+          {
+            "scenario": "large_cavern",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "cavern_id": "low_investment_large_cavern"
+          },
+          {
+            "scenario": "slow_ramp",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "ramp_fraction_nameplate_per_hour": 0.03
+          },
+          {
+            "scenario": "overbuild2",
+            "wtir": 2.0,
+            "buffer_hours": 24.0,
+            "renewable_overbuild": 2.0
+          }
+        ],
+        "tested_minimum_load_fraction_range": [
+          0.4,
+          0.6666666666666666
+        ],
+        "bracket_tolerance": 0.025,
+        "solver": {
+          "method": "highs-ipm",
+          "formulation": "compact",
+          "threads": 1,
+          "objective": "feasibility only; all original matrix and bound residuals checked"
+        },
+        "fixed": {
+          "reference_caverns": 1,
+          "ramp_fraction_nameplate_per_hour": 0.6,
+          "boundary": "cyclic",
+          "renewable_design_years": [
+            2006,
+            2007,
+            2008,
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014
+          ],
+          "renewable_overbuild": 1.5,
+          "wind_energy_share": 0.5
+        }
+      },
+      "completed_rows": 6,
+      "expected_rows": 30,
+      "input_sha256": {
+        "D:\\MLWork\\project12_h2flex_eu\\datasets\\eho_ammonia_site_clusters_v1_20260930.csv": "d6b791e166bd625d8d3b56d6a3b5a1d7e5ad6feaab15e8a2a01a2ee48ce55579",
+        "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_huelva_pvgis_era5_2005_2023.json": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+        "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_huelva_wind_era5_2005_2023.json": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f"
+      },
+      "source_code_sha256": "369711711e7377e5db0cc4a6aad21af495a0c539b25072e255bca47fcd242c57",
+      "code_sha256": {
+        "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_threshold_robustness.py": "369711711e7377e5db0cc4a6aad21af495a0c539b25072e255bca47fcd242c57",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_site_module_frontier.py": "d4baf341a7e7458eae2331bf3d2fcf71fa071dfebf90062b77189cc46b84f5f2",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_cavern_module_frontier.py": "74176786c74102dac44eed87b31617053304b1ecd4f0c146daff443176df61f6",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier.py": "014bbbb22fad66581285a9d1c9a225801fed565436bcda0e70065272b152f916",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\compact_cavern_lp.py": "f31fcdc0e82386f253b46708d86a4d432136f6f6849e063108c5a31efa0e3b31",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_rfnbo_frontier_aux.py": "98ba855d28a702e5c7bb48f108dc3566292e737c8d77d5dc808449f31cc95d79",
+        "D:\\MLWork\\project12_h2flex_eu\\src\\rfnbo_inventory_frontier.py": "810ed1f9a97525c7639f069ea1b05c424ef267677d7e8b1b555c5a9d849deb6b"
+      },
+      "output": "archival-path:d/MLWork/project12_h2flex_eu/results/eho_threshold_sensitivity/cyclic_compact_threshold_v2_median/load_threshold_robustness.csv",
+      "interpretation_boundary": "Scenario screening only; no facility operation, geology, cavern availability, or population inference."
+    },
+    "manifest_sha256": "ca353a38bd4334b4bd14c4bf4f1c488c8dc01f90f5a1b060e0c01741cc5686e1",
+    "csv_sha256": "5182a0eae0166859ee8878a5607db6e622d8155031831053dd382436f1416e70"
+  }
+}

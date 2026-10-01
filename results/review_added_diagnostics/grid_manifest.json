@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "block": "grid",
+  "expected_cases": 18,
+  "completed_cases": 18,
+  "source_hashes": {
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_review_added_diagnostics.py": "f8b11ddb470bea3e50a14e17a8076276b4a44ff8d7336d11d45449a1fe7e390e",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eu27_cavern_module_frontier.py": "74176786c74102dac44eed87b31617053304b1ecd4f0c146daff443176df61f6",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_site_module_frontier.py": "d4baf341a7e7458eae2331bf3d2fcf71fa071dfebf90062b77189cc46b84f5f2",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\compact_cavern_lp.py": "f31fcdc0e82386f253b46708d86a4d432136f6f6849e063108c5a31efa0e3b31",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_continuous_module_frontier.py": "ad9f3de66271050f32aa698ecb9ddae8819b17d6ea525b9549dea76f054103e0",
+    "D:\\MLWork\\project12_h2flex_eu\\src\\run_eho_unbundled_deliverability.py": "7d23758da264bfbde913a07f0f9552d6978ea4147c462f7540850f5fbd5f7b7a",
+    "D:\\MLWork\\project12_h2flex_eu\\datasets\\eho_ammonia_site_clusters_v1_20260930.csv": "d6b791e166bd625d8d3b56d6a3b5a1d7e5ad6feaab15e8a2a01a2ee48ce55579",
+    "D:\\MLWork\\project12_h2flex_eu\\results\\eho_site_module_frontier\\primary_cyclic_v5_ds1_ml06_ml04_b24_holdout2015_2023\\site_weather_frontier.csv": "8b6760ffca59e804cf765d7f3d8a677c77d0dcd8e7f3b6d17fbde034ce8d3f6d",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_sabinanigo_pvgis_era5_2005_2023.json": "3cea403d66d656ff854c073ed86d82f0566da236ef9abb3e08c514f49227b77c",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_sabinanigo_wind_era5_2005_2023.json": "63aec529f2e20a026f623a44128b091df0cb9b206038aa10ca099e84704508a8",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\spain_huelva_pvgis_era5_2005_2023.json": "f8651d8cd072b58ed025186dcad0f8a3d42f7785dc4f3f1e5cd47529127ebfed",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\spain_huelva_wind_era5_2005_2023.json": "58a3b9751ca1bc218f954bdd16b902cbe9f5e24fde3819e18327e5eb78d6167f",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\pvgis\\netherlands_sluiskil_pvgis_era5_2005_2023.json": "5b4e6b505ca120e456c3bb8ea61bea79ef61371f9525fcf9156911b611680175",
+    "F:\\AcademicData\\project12_h2flex_eu\\raw\\eho_ammonia_site_weather_20260930\\open_meteo\\netherlands_sluiskil_wind_era5_2005_2023.json": "445a66f31dde47efe9f38149ce85057a6d8ef476701ba550c2e78f48160bffe2"
+  },
+  "main_model_unchanged": true,
+  "scope": "Review-added parametric public-weather scenarios, not new observed clusters or a probability sample"
+}

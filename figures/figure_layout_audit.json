@@ -1,0 +1,94 @@
+{
+  "figures": [
+    {
+      "figure": "figure1_service_capacity_frontier",
+      "text_items": 28,
+      "problems": [],
+      "audit_dpi": 300,
+      "clearance_pt": 0.25,
+      "checks": [
+        "text/text",
+        "text/line",
+        "text/line-collection",
+        "text/marker-footprint",
+        "text/bar",
+        "canvas-containment"
+      ]
+    },
+    {
+      "figure": "figure2_inventory_and_design",
+      "text_items": 42,
+      "problems": [],
+      "audit_dpi": 300,
+      "clearance_pt": 0.25,
+      "checks": [
+        "text/text",
+        "text/line",
+        "text/line-collection",
+        "text/marker-footprint",
+        "text/bar",
+        "canvas-containment"
+      ]
+    },
+    {
+      "figure": "figure3_independent_rate_certificates",
+      "text_items": 17,
+      "problems": [],
+      "audit_dpi": 300,
+      "clearance_pt": 0.25,
+      "checks": [
+        "text/text",
+        "text/line",
+        "text/line-collection",
+        "text/marker-footprint",
+        "text/bar",
+        "canvas-containment"
+      ]
+    },
+    {
+      "figure": "figure4_common_volume_deliverability",
+      "text_items": 28,
+      "problems": [],
+      "audit_dpi": 300,
+      "clearance_pt": 0.25,
+      "checks": [
+        "text/text",
+        "text/line",
+        "text/line-collection",
+        "text/marker-footprint",
+        "text/bar",
+        "canvas-containment"
+      ]
+    }
+  ],
+  "problems": [],
+  "dpi_png": 1200,
+  "scienceplots_commit": "b9b16959570bd2fbc9ff5118bacc423c3bddd592",
+  "scienceplots_presets": [
+    "science",
+    "nature",
+    "no-latex"
+  ],
+  "vector_formats": [
+    "pdf",
+    "svg",
+    "eps"
+  ],
+  "width_mm": 185.0,
+  "source_tables": {
+    "figure1": "results/frontier/continuous_module_frontier.csv",
+    "figure2": [
+      "results/primary/paired_site_weather_summary_flex_ml0p6_b24.csv",
+      "results/primary/summary_by_site_flex_ml0p6_b24.csv"
+    ],
+    "figure3": "results/primary/capacity_deliverability_bounds.csv",
+    "figure4": "results/common_volume/fixed_volume_deliverability_counterfactual.csv"
+  },
+  "source_sha256": {
+    "continuous_module_frontier.csv": "6c624c3b357775ff32c56249fda37f80460924009e508b9da55c82691dff9daf",
+    "paired_site_weather_summary_flex_ml0p6_b24.csv": "c0c7385066afeb0666dba25029c687231b0ba19db125a313957ca16e27c8a734",
+    "summary_by_site_flex_ml0p6_b24.csv": "0cae6733d0239321b13c5be726d88bb7a74f51c2d4dbf1ca5e28c2f1b29b9d24",
+    "capacity_deliverability_bounds.csv": "cc3bcfa02f97baea497398646046ba29d97d953cb05ffabeaef1e9e5a64bb8da",
+    "fixed_volume_deliverability_counterfactual.csv": "6e648bc983cf754fc06f2f17838eeb38a5c5bb4ebef3add2f6ba3c26fb7b167b"
+  }
+}

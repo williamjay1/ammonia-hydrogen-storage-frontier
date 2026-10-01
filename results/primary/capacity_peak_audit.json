@@ -1,0 +1,13 @@
+{
+  "status": "validated_complete",
+  "rows": 405,
+  "maximum_positive_ceiling_violations": {
+    "working_gas_kg_at_scale": 0.0,
+    "withdrawal_kgph_at_scale": 0.0,
+    "injection_kgph_at_scale": 1.0393141565145925e-06,
+    "product_stock_t_per_normalized_tph": 9.724558935886307e-10
+  },
+  "source_csv_sha256": "8b6760ffca59e804cf765d7f3d8a677c77d0dcd8e7f3b6d17fbde034ce8d3f6d",
+  "script_sha256": "a61f0b067f8954c9cb49df1710e765c9a3e91de64daaa835b218abdc28381f4a",
+  "scope": "Independently verifies reported capacity/peak values, not unstored complete hourly schedules."
+}
