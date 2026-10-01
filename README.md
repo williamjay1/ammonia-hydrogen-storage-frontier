@@ -56,6 +56,7 @@ absolute work directory is supported. Inputs in this repository are not modified
 | `results/threshold/`, `results/threshold_provenance/` | All 90 classifications and staged calculation provenance |
 | `results/review_added_diagnostics/` | 90 additional wind/volume/grid cases, including six failures |
 | `figures/` | Vector PDF/SVG/EPS and native 1200-dpi PNGs with layout checks |
+| `tables/` | The six publication tables as CSV and isolated native LaTeX table bodies |
 | `docs/` | Reproduction, variable definitions, licensing and publication checks |
 
 `manifest_sha256.json` verifies the released scientific files. Historical local

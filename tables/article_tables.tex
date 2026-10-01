@@ -1,0 +1,102 @@
+% Extracted publication tables only; use the MDPI class and weighted J/K columns.
+
+\begin{table}[H]
+\caption{Central assumptions, sources and interpretation.\label{tab:assumptions}}
+{\small
+\begin{tabularx}{\textwidth}{@{}J{0.85} J{0.90} J{1.25}@{}}
+\toprule
+\textbf{Quantity} & \textbf{Central value or rule} & \textbf{Basis and interpretation}\\
+\midrule
+Product service & 1 t NH$_3$-equivalent h$^{-1}$ before scale normalization & Identical constant service in all process cases; a declared contract rather than an observed order profile\\
+Synthesis nameplate & 1.5 times mean service & Declared process capacity scenario, held equal across cases\\
+Primary and sensitivity minimum load & 60\% and 40\% of nameplate & Conditional process envelopes treated as a design requirement\\
+Product buffer ceiling & 24 mean-service hours & Joint process and buffer package; 0 h and 48 h sensitivities\\
+Ramp ceiling & 60\% of nameplate per hour & Non-binding centrally; 3\% per hour sensitivity\\
+Electrolysis electricity & 52 kWh kg$^{-1}$ H$_2$ & \citet{irena2022}; fixed conversion efficiency\\
+H$_2$ feed & 177.553 kg t$^{-1}$ NH$_3$ & Stoichiometry, with no purge loss correction\\
+Process auxiliary electricity & 0.4444 MWh t$^{-1}$ NH$_3$ & \citet{smith2025}; proportional screening term\\
+Injection compression & 0.587 kWh kg$^{-1}$ H$_2$ & Hystories D7.1 power to flow ratio rather than a pressure curve\\
+Renewable design & 1.5 times mean load, equal PV and wind annual energy & Sized on 2006--2014; overbuild 2 sensitivity\\
+Electrolyser and grid nameplate & 3 times the respective mean modeled loads & Declared capacity rules, not an optimized investment\\
+Small cavern working gas and withdrawal & 15.6 million standard m$^3$ and 1.4 million standard m$^3$ d$^{-1}$ & Hystories D7.1 generic archetype; exact per-well rate sensitivity\\
+Withdrawal to injection ratio & 2 & Hystories D7.2 generic range; 1 and 5 sensitivity\\
+Storage and calendar boundary & Zero losses, annual cyclic stocks, perfect foresight & Favorable weather and schedule adequacy; outages lie outside the model\\
+\bottomrule
+\end{tabularx}}
+\end{table}
+
+\begin{table}[H]
+\caption{Continuous service capacity frontier at the three declared anchors. Values are the minimum service capacity of one unit across 2015, 2019 and 2023, in t NH$_3$-equivalent h$^{-1}$. Each year has independently optimized cyclic stocks.\label{tab:frontier}}
+\begin{tabularx}{\textwidth}{@{}J{1.40} K{0.8667} K{0.8667} K{0.8666}@{}}
+\toprule
+\textbf{Weather and scale anchor} & \textbf{Rigid service} & \textbf{60\% floor, 24 h buffer} & \textbf{40\% floor, 24 h buffer}\\
+\midrule
+Sabi\~n\'anigo & 11.88 & 14.39 & 16.63\\
+Huelva & 19.29 & 23.77 & 35.27\\
+Sluiskil & 23.34 & 29.27 & 37.95\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Complete paired annual and shared capacity outcomes. Each process package has 135 matched location and year pairs and 15 shared nine-replay envelopes. Free inventory excludes cavern rate limits, and reference unit counts include volume and both directional rates.\label{tab:paired}}
+\begin{tabularx}{\textwidth}{@{}J{1.65} K{0.675} K{0.675}@{}}
+\toprule
+\textbf{Outcome} & \textbf{60\% floor, 24 h buffer} & \textbf{40\% floor, 24 h buffer}\\
+\midrule
+Median free inventory reduction (\%) & 17.0 & 17.9\\
+Free inventory interquartile range (\%) & 12.9--22.7 & 12.9--27.6\\
+Descriptive pooled median resampling interval (\%) & 15.3--19.2 & 15.7--23.2\\
+Annual pairs with a lower reference unit count & 58/135 & 89/135\\
+Annual pairs crossing from multiple units to one & 20/135 & 42/135\\
+Clusters with a lower shared nine-replay count & 9/15 & 12/15\\
+Median reduction in maximum annual free inventory (\%) & 10.2 & 10.2\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Complete sensitivity classifications for one unit. Each row contains nine predeclared anchor and year cases. Upper feasible means that service is feasible at a 66.7\% nameplate floor, and lower infeasible means that it is infeasible at 40\%. Crossings are bracketed to at most 2.5 percentage points. Counts describe scenario coverage.\label{tab:threshold}}
+\begin{tabularx}{\textwidth}{@{}J{1.90} K{0.70} K{0.70} K{0.70}@{}}
+\toprule
+\textbf{Configuration} & \textbf{Bracketed crossing} & \textbf{Upper feasible} & \textbf{Lower infeasible}\\
+\midrule
+Central: ratio 2, buffer 24 h & 3 & 3 & 3\\
+Exact per-well withdrawal rate & 3 & 3 & 3\\
+Large reference archetype & 3 & 6 & 0\\
+Medium reference archetype & 0 & 6 & 3\\
+Renewable overbuild 2 & 3 & 3 & 3\\
+Slow ramp, 3\% nameplate h$^{-1}$ & 1 & 3 & 5\\
+Withdrawal to injection ratio 1 & 3 & 3 & 3\\
+Zero product buffer & 0 & 3 & 6\\
+Product buffer 48 h & 3 & 3 & 3\\
+Withdrawal to injection ratio 5 & 1 & 3 & 5\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Paired deliverability relief at common working gas volume. Nine matched anchor and year pairs per process package at a withdrawal to injection ratio of 2. Percentage changes are computed within pairs.\label{tab:rates}}
+\begin{tabularx}{\textwidth}{@{}J{1.45} K{0.95} K{0.95} K{0.95} K{0.70}@{}}
+\toprule
+\textbf{Process and buffer package} & \textbf{Median withdrawal reduction (\%)} & \textbf{Interquartile range (\%)} & \textbf{Full range (\%)} & \textbf{Pairs with relief}\\
+\midrule
+60\% floor, 24 h buffer & 25.3 & 17.4--26.6 & 12.9--48.6 & 9/9\\
+40\% floor, 24 h buffer & 55.4 & 41.9--58.7 & 37.8--61.5 & 9/9\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Additional paired engineering diagnostics at the primary 60\% nameplate floor with a 24 h buffer and nine matched anchor and year pairs per row. Wind rows report the service capacity gain, and volume rows report the common volume directional rating reduction.\label{tab:boundaries}}
+\begin{tabularx}{\textwidth}{@{}J{1.20} J{1.20} K{0.80} K{0.80}@{}}
+\toprule
+\textbf{One-factor design} & \textbf{Endpoint} & \textbf{Median (\%)} & \textbf{Full range (\%)}\\
+\midrule
+Wind energy share 25\% & Service capacity gain & 24.3 & 17.8--33.9\\
+Wind energy share 75\% & Service capacity gain & 20.2 & 2.3--32.3\\
+Medium working volume convention & Directional rating reduction & 20.5 & 10.0--44.7\\
+Large working volume convention & Directional rating reduction & 19.7 & 10.0--44.9\\
+\bottomrule
+\end{tabularx}
+\end{table}

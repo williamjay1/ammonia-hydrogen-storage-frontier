@@ -1,0 +1,11 @@
+Configuration,Bracketed crossing,Upper feasible,Lower infeasible
+"Central: ratio 2, buffer 24 h",3,3,3
+Exact per-well withdrawal rate,3,3,3
+Large reference archetype,3,6,0
+Medium reference archetype,0,6,3
+Renewable overbuild 2,3,3,3
+"Slow ramp, 3% nameplate h$^{-1}$",1,3,5
+Withdrawal to injection ratio 1,3,3,3
+Zero product buffer,0,3,6
+Product buffer 48 h,3,3,3
+Withdrawal to injection ratio 5,1,3,5

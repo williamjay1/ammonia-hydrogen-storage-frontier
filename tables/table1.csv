@@ -1,0 +1,15 @@
+Quantity,Central value or rule,Basis and interpretation
+Product service,1 t NH$_3$-equivalent h$^{-1}$ before scale normalization,Identical constant service in all process cases; a declared contract rather than an observed order profile
+Synthesis nameplate,1.5 times mean service,"Declared process capacity scenario, held equal across cases"
+Primary and sensitivity minimum load,60% and 40% of nameplate,Conditional process envelopes treated as a design requirement
+Product buffer ceiling,24 mean-service hours,Joint process and buffer package; 0 h and 48 h sensitivities
+Ramp ceiling,60% of nameplate per hour,Non-binding centrally; 3% per hour sensitivity
+Electrolysis electricity,52 kWh kg$^{-1}$ H$_2$,irena2022; fixed conversion efficiency
+H$_2$ feed,177.553 kg t$^{-1}$ NH$_3$,"Stoichiometry, with no purge loss correction"
+Process auxiliary electricity,0.4444 MWh t$^{-1}$ NH$_3$,smith2025; proportional screening term
+Injection compression,0.587 kWh kg$^{-1}$ H$_2$,Hystories D7.1 power to flow ratio rather than a pressure curve
+Renewable design,"1.5 times mean load, equal PV and wind annual energy",Sized on 2006--2014; overbuild 2 sensitivity
+Electrolyser and grid nameplate,3 times the respective mean modeled loads,"Declared capacity rules, not an optimized investment"
+Small cavern working gas and withdrawal,15.6 million standard m$^3$ and 1.4 million standard m$^3$ d$^{-1}$,Hystories D7.1 generic archetype; exact per-well rate sensitivity
+Withdrawal to injection ratio,2,Hystories D7.2 generic range; 1 and 5 sensitivity
+Storage and calendar boundary,"Zero losses, annual cyclic stocks, perfect foresight",Favorable weather and schedule adequacy; outages lie outside the model

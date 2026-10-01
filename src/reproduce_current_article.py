@@ -75,12 +75,9 @@ def main():
     if sys.platform=='win32' and work.drive.upper()=='C:': parser.error('Do not write compute outputs to C:')
     work.mkdir(parents=True,exist_ok=True)
     if args.mode=='figures':
-        figures=importlib.import_module('build_content_figures')
-        figures.ROOT=PACKAGE
-        figures.MAIN=PACKAGE/'results'/'primary'
-        figures.FRONTIER=PACKAGE/'results'/'frontier'
-        figures.RATE=PACKAGE/'results'/'common_volume'
-        figures.OUT=work/'figures'
+        figures=importlib.import_module('build_nature_figures')
+        sys.argv=['build_nature_figures.py','--results-root',str(PACKAGE/'results'),
+                  '--output-dir',str(work/'figures')]
         figures.main()
         return
     site=importlib.import_module('run_eho_site_module_frontier')

@@ -1,0 +1,47 @@
+{
+  "tables": [
+    {
+      "table": 1,
+      "file": "table1.csv",
+      "data_rows": 14,
+      "columns": 3,
+      "sha256": "1599ce33cd5f795285e8d9b4883b7221e87dc1e637816cc3f4785685f32b9d39"
+    },
+    {
+      "table": 2,
+      "file": "table2.csv",
+      "data_rows": 3,
+      "columns": 4,
+      "sha256": "bc6ac4f3b5eef5e20b89dac07825d6bb2a95083bc061400b84868fa69b058258"
+    },
+    {
+      "table": 3,
+      "file": "table3.csv",
+      "data_rows": 7,
+      "columns": 3,
+      "sha256": "0ebc634bfb7c610be3121df5d82ee5ec8e7f2c0407662ce75d5adaa578334ef6"
+    },
+    {
+      "table": 4,
+      "file": "table4.csv",
+      "data_rows": 10,
+      "columns": 4,
+      "sha256": "321c8bdc60863331d95ca9bf95fa5ba2fce36b92526cf60a689993c924ad3fef"
+    },
+    {
+      "table": 5,
+      "file": "table5.csv",
+      "data_rows": 2,
+      "columns": 5,
+      "sha256": "ff993d9f0746dd843121a771d52a07e48f4c16e9aaf0b544538189b66b16b83b"
+    },
+    {
+      "table": 6,
+      "file": "table6.csv",
+      "data_rows": 4,
+      "columns": 4,
+      "sha256": "ae71770fc66ecc9262149f245641b9e4b9c4a92834557e54596f51d8b8d47a1f"
+    }
+  ],
+  "interpretation": "Scenario/model publication values. TeX math/units remain in CSV cells where needed."
+}

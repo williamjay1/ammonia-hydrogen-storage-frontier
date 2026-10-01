@@ -1,0 +1,8 @@
+Outcome,"60% floor, 24 h buffer","40% floor, 24 h buffer"
+Median free inventory reduction (%),17.0,17.9
+Free inventory interquartile range (%),12.9--22.7,12.9--27.6
+Descriptive pooled median resampling interval (%),15.3--19.2,15.7--23.2
+Annual pairs with a lower reference unit count,58/135,89/135
+Annual pairs crossing from multiple units to one,20/135,42/135
+Clusters with a lower shared nine-replay count,9/15,12/15
+Median reduction in maximum annual free inventory (%),10.2,10.2
