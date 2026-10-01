@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "algorithm": "sha256",
   "files": {
+    ".gitattributes": "22829cacaf54e96f03d9956cc7757b28a3cb69d3783ca3240ae3fcfb8dfd37ef",
     ".github/workflows/reproducibility.yml": "d83bd92dd279c2b4680f0acec7737c62e5de1cb5e207255ebc7b4d359e8d0069",
     ".gitignore": "6d2077aaba378500cfd33c665a61bab2219abf16f106d5a2f49ec8a9496105e0",
     "CITATION.cff": "37fbdc2e5264256511b5e86e8a58519b7ce3afbdd8ff29ebe0d396fd722d3a3f",
